@@ -3,231 +3,165 @@ const listaProyectos = [
   // MARCAS / COMERCIAL
   // ----------------------------------------------------
   {
-    id: "com-brkv",
+    id: "com-bagu-hoteles",
     categoria: "comercial",
-    portadaImg: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500",
+    portadaImg: "portada-bagu.jpg",
     publicaciones: [
       {
-        idPub: "brkv-p1",
+        idPub: "bagu-p1",
         año: "2025",
-        titulo: "BRKV Co-Living Platform",
-        tags: ["Branding", "UX/UI", "AI Tools"],
-        descripcionES: "<p>Diseño de interfaz de usuario en Figma y assets promocionales globales adaptados siguiendo estrictamente las brand guidelines de la firma internacional para su lanzamiento en el mercado europeo.</p>",
-        descripcionEN: "<p>User interface design in Figma and global promotional assets adapted strictly following the international firm's brand guidelines for its European market launch.</p>",
-        mediaHTML: '<img src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=800">'
-      }
-    ]
-  },
-  {
-    id: "com-techround",
-    categoria: "comercial",
-    portadaImg: "portada-techround",
-    publicaciones: [
-      {
-        idPub: "tech-p1",
-        año: "2025 - 2026",
-        titulo: "TechRound UK",
-        tags: ["medio digital especializado en tecnología"],
-        descripcionES: `
-          <p>**TechRound UK** es un medio digital de Inglaterra especializado en startups, emprendimiento, tecnología, innovación y negocios.</p>
-          <p>Me desempeño en la producción y edición de contenido audiovisual a partir de noticias, artículos editoriales, entrevistas y contenido generado por usuarios (UGC), adaptado a múltiples formatos y plataformas, incluyendo YouTube y redes sociales. Mis responsabilidades incluyen <b>edición de audio y video</b>, <b>diseño gráfico</b> y <b>motion graphics</b>, trabajando en coordinación con el equipo editorial y colaboradores externos para desarrollar piezas alineadas con la identidad visual y con los objetivos editoriales del medio.</p>
-          <div style="font-family: Google Sans, sans-serif; font-size: 16px; font-weight: 500; color: #000; margin-top: 30px; margin-bottom: 15px;">Contenido vertical:</div>
-        `,
-        descripcionEN: `
-          <p>TechRound UK is a UK-based digital publication covering startups, entrepreneurship, technology, innovation, and business news.</p>
-          <p>I produce and edit audiovisual content based on editorial articles, interviews, and user-generated content (UGC), adapting each piece for YouTube and social media. My responsibilities include <b>video and audio editing</b>, <b>graphic design</b>, and <b>motion graphics</b>, working closely with the editorial team and external collaborators to create engaging content aligned with the publication's editorial and visual identity.</p>
-          <div style="font-family: Google Sans, sans-serif; font-size: 16px; font-weight: 500; color: #777; margin-top: 30px; margin-bottom: 15px;">Vertical content:</div>
-        `,
+        titulo: "Bagu Hoteles",
+        tags: ["Cadena hotelera"],
+        descripcionES: "<p>Trabajo realizado para La Cosecha, una agencia de marketing y comunicación. El proyecto consistió en la creación de contenido para redes sociales de Hoteles Bagu, una cadena hotelera argentina.</p><p>Mis responsabilidades incluyeron <b>diseño gráfico</b>, <b>edición de video</b> y <b>motion graphics</b> para piezas destinadas a Instagram y TikTok, adaptando el contenido a la identidad visual de la marca y a los formatos propios de cada plataforma.</p>",
+        descripcionEN: "<p>Project completed for La Cosecha, a marketing and communications agency. The work involved creating social media content for Hoteles Bagu, an Argentine hotel chain.</p><p>My responsibilities included <b>graphic design</b>, <b>video editing</b>, and <b>motion graphics</b> for Instagram and TikTok content, adapting each piece to the brand's visual identity and the requirements of each platform.</p>",
         mediaHTML: `
           <div style="display: flex; flex-direction: column; gap: 40px; width: 100%;">
-              <!-- Bloque Shorts (3 por línea) -->
-              <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                      <iframe src="https://www.youtube.com/embed/O7dU0xT7YEw" title="TechRound Short 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
-                  </div>
-                  <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                      <iframe src="https://www.youtube.com/embed/_Tq3gjhd2OE" title="TechRound Short 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
-                  </div>
-                  <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                      <iframe src="https://www.youtube.com/embed/FBe_Ksg5--I" title="TechRound Short 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
-                  </div>
-              </div>
-              <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                      <iframe src="https://www.youtube.com/embed/wV34QG5qjLw" title="TechRound Short 4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
-                  </div>
-                  <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                      <iframe src="https://www.youtube.com/embed/MFsCDMDu5WM" title="TechRound Short 5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
-                  </div>
-                  <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                      <iframe src="https://www.youtube.com/embed/oyP4odWkCqQ" title="TechRound Short 6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
-                  </div>
-              </div>
-              <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                      <iframe src="https://www.youtube.com/embed/YRBSJyLF5YA" title="TechRound Short 7" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
-                  </div>
-                  <div style="width: 100%;"></div>
-                  <div style="width: 100%;"></div>
-              </div>
+            <!-- Grilla de Imágenes (4 por línea) -->
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; width: 100%;">
+              <img data-lightbox="true" src="bagu-01.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-02.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-03.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-04.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-05.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-06.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-07.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-08.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-09.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-10.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-11.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-12.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-13.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-14.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-15.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-16.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-17.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-18.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-19.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-20.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-21.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-22.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-23.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-24.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-25.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-26.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-27.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-28.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-29.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-30.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-31.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-32.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-33.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-34.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-35.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-36.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-37.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-38.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-39.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-40.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="bagu-41.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            </div>
 
-              <div style="font-family: Google Sans, sans-serif; font-size: 16px; font-weight: 500; color: #000; margin-top: 10px; border-top: 1px solid #eee; padding-top: 25px;">Videos informativos para youtube:</div>
-              
-              <!-- Bloque Informativos (2 por línea) -->
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/WowYXubbMtA" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/_sGjf7GJjg8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+            <!-- Videos Dailymotion (2 por línea) -->
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
+              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
+                <iframe src="https://www.dailymotion.com/embed/video/kAmVwc6UTMacT4Ih9Ke" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/wOOaKOwpO4o" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/r-J_NXz301M" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
+                <iframe src="https://www.dailymotion.com/embed/video/k6behSRNlI3GorIh9Kq" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/USTK72RWMAQ" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/f-TDSwcsogM" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
+              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
+                <iframe src="https://www.dailymotion.com/embed/video/kvmIo4byvpNG1iIh9K2" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/eo-LhjINVt0" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/y9hRbtiPLng" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
+                <iframe src="https://www.dailymotion.com/embed/video/k4rSjATXJBFqlPIh9Ki" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/33JjFWKUaQY" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/zuUQ4Z7Ct_U" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
+              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
+                <iframe src="https://www.dailymotion.com/embed/video/k7E1EA6VT9ntolIh9Km" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/fO6fOBACI38" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/K0eAF-hlPuo" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
+                <iframe src="https://www.dailymotion.com/embed/video/k3Jq6d3IMNwM9RIh9Ka" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/mtml-Et1uec" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/Pce02ol_tbQ" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-              </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/CZ_Vd1e9Ei0" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/-w9tehv60vY" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-              </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/afQcrd_VGwk" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/-Zva9himJf8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-              </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/AmGqnZXe7p8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/KxutngZA_0Q" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-              </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/h2gt1HD9utE" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/L4lbD00L-_0" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-              </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/3jL5N-PQPho" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/cogTsEs8K7E" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-              </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/42-bXIPD31I" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/qejv2-4Xqwc" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-              </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/FGhetvSkX5U" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/MKPsTYhSJug" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-              </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/h4o6ZnnsYWo" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/wX4MvAZISE0" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-              </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/AnycEnTfX4A" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/l8T3wMMGl9Q" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-              </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/lhy456D4Z40" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/rDMj6h4Pwlk" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-              </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/sbJeGPmqyrk" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/Z0znUPwhKfE" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-              </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/KUg5vKrJQlw" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/NsOQMRFb_w8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-              </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/LG4VA1XH6Dg" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/GHfmjGnFQy4" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-              </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/eFp3zzSFTcg" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/z_db6YLPA18" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-              </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/lx7wGDNjQjM" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/-p5r_2oXluE" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-              </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/koD0ZTkg_hA" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="width: 100%;"></div>
-              </div>
-
-              <div style="font-family: Google Sans, sans-serif; font-size: 16px; font-weight: 500; color: #000; margin-top: 10px; border-top: 1px solid #eee; padding-top: 25px;">Entrevistas / Charlas:</div>
-
-              <!-- Bloque Entrevistas (2 por línea) -->
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/RYV9A4SUyyU" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/iSywkYaPlLU" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-              </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/8fc3dDvUJ_k" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/CVNUVpW9IbA" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-              </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/niU5fjsgmic" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/vflO-CfVVxc" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-              </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/lNgtJLepXbg" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/a6yKkOmFq24" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-              </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/_FhXRepsieA" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/-JpxmBGP7IE" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-              </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/1EXNorJFwrw" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="width: 100%;"></div>
-              </div>
+            </div>
           </div>
         `
       }
     ]
   },
   {
-    id: "com-cosecha",
+    id: "com-ginezen",
     categoria: "comercial",
-    portadaImg: "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=500",
+    portadaImg: "portada-ginezen.jpg",
     publicaciones: [
       {
-        idPub: "cos-p1",
+        idPub: "ginezen-p1",
         año: "2025",
-        titulo: "La Cosecha - Hotelería Digital",
-        tags: ["Short Form", "Branding", "Color Grading"],
-        descripcionES: "<p>Postproducción visual adaptada a formatos móviles verticales enfocada en generar engagement orgánico y retención de audiencia en el nicho de turismo de lujo.</p>",
-        descripcionEN: "<p>Visual postproduction adapted to vertical mobile formats focused on driving organic engagement and audience retention in the luxury tourism niche.</p>",
-        mediaHTML: '<img src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=800">'
-      }
-    ]
-  },
-  {
-    id: "com-flakka",
-    categoria: "comercial",
-    portadaImg: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500",
-    publicaciones: [
-      {
-        idPub: "flak-p1",
-        año: "2024",
-        titulo: "Flakkaboem Live Sessions",
-        tags: ["Motion Graphics", "Short Form", "Color Grading"],
-        descripcionES: "<p>Sincronización de múltiples cámaras en set, corrección de color de estilo cinematográfico y curaduría de fragmentos de alto impacto para distribución multiplataforma.</p>",
-        descripcionEN: "<p>Multi-camera synchronization on set, cinematic-style color correction, and curation of high-impact snippets for cross-platform digital distribution.</p>",
-        mediaHTML: '<img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=800">'
+        titulo: "Ginezen",
+        tags: ["Consultorio médico"],
+        descripcionES: "<p>Trabajo realizado para La Cosecha, una agencia de marketing y comunicación. El proyecto consistió en la creación de contenido para redes sociales de Ginezen, un consultorio médico enfocado en ginecología.</p><p>Mis responsabilidades incluyeron <b>diseño gráfico</b>, <b>edición de video</b> y <b>motion graphics</b> para piezas destinadas a Instagram y TikTok. También ayudé en la construccion de la indentidad de la marca, colaborando en el armado del brand book.</p>",
+        descripcionEN: "<p>Project completed for La Cosecha, a marketing and communications agency. The project involved creating social media content for Ginezen, a gynecology clinic.</p><p>My responsibilities included <b>graphic design</b>, <b>video editing</b>, and <b>motion graphics</b> for Instagram and TikTok content. I also contributed to the development of the brand's visual identity by collaborating on the creation of its brand book.</p>",
+        mediaHTML: `
+          <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; width: 100%;">
+            <img data-lightbox="true" src="ginezen-01.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-02.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-03.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-04.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-05.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-06.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-07.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-08.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-09.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-10.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-11.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-12.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-13.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-14.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-15.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-16.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-17.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-18.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-19.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-20.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-21.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-22.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-23.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-24.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-25.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-26.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-27.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-28.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-29.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-30.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-31.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-32.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-33.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-34.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-35.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-36.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-37.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-38.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-39.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-40.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-41.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-42.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-43.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-44.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-45.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-46.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-47.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-48.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-49.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-50.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-51.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-52.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-53.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-54.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            <img data-lightbox="true" src="ginezen-55.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+          </div>
+        `
       }
     ]
   },
@@ -490,7 +424,6 @@ const listaProyectos = [
               </div>
               
               <div style="font-family: Google Sans, sans-serif; font-size: 16px; font-weight: 500; color: #000; border-top: 1px solid #eee; padding-top: 25px; margin-top: 10px;">Contenido Shorts / Reels:</div>
-
               <!-- Instagram en líneas de máximo 3 -->
               <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
                   <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.instagram.com/reel/C--qANCoZuu/embed" title="Flakkaboem IG 1" frameborder="0" scrolling="no" allowtransparency="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe></div>
@@ -555,7 +488,7 @@ const listaProyectos = [
   },
   { id: "inst-2", categoria: "instalaciones", portadaImg: "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=500", publicaciones: [{ idPub: "inst2-p1", año: "2024", titulo: "Urdimbre - Madrid", tags: ["Instalación", "Vector Art", "Textiles"], descripcionES: "<p>Exhibición interactiva en la muestra colectiva que cruza texturas analógicas pesadas con proyecciones vectoriales de código vivo.</p>", descripcionEN: "<p>Interactive exhibition in the collective showcase that crosses heavy analog textures with live-coded vector projections.</p>", mediaHTML: "" }] },
   { id: "inst-3", categoria: "instalaciones", portadaImg: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=500", publicaciones: [{ idPub: "inst3-p1", año: "2025", titulo: "Frecuencias Latentes", tags: ["Nuevas Tecnologías", "Granular Sound", "Immersive"], descripcionES: "<p>Performance espacial de carácter interactivo que utiliza síntesis granular manipulada mediante sensores de movimiento corporales.</p>", descripcionEN: "<p>Interactive spatial performance using granular synthesis manipulated through body motion sensors.</p>", mediaHTML: "" }] },
-  { id: "inst-4", categoria: "instalaciones", portadaImg: "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500", publicaciones: [{ idPub: "inst4-p1", año: "2026", titulo: "Humedades Digitales", tags: ["Instalación", "Generative Art", "Algorithms"], descripcionES: "<p>Instalación de arte generativo basada estrictamente en algoritmos biológicos simulados que mutan según la temperatura ambiente de la sala.</p>", descripcionEN: "<p>Generative art installation strictly based on simulated biological algorithms that mutate according to the room's ambient temperature.</p>", mediaHTML: "" }] },
+  { id: "inst-4", categoria: "instalaciones", portadaImg: "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500", publicaciones: [{ idPub: "inst4-p1", año: "2026", titulo: "Humedades Digitales", tags: ["Instalación", "Generative Art", "Algorithms"], descripcionES: "<p>Instalación de arte generativo basada strictly en algoritmos biológicos simulados que mutan según la temperatura ambiente de la sala.</p>", descripcionEN: "<p>Generative art installation strictly based on simulated biological algorithms that mutate according to the room's ambient temperature.</p>", mediaHTML: "" }] },
   // ----------------------------------------------------
   // DISEÑO GRÁFICO
   // ----------------------------------------------------
