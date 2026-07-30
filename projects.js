@@ -17,7 +17,7 @@ const listaProyectos = [
         mediaHTML: `
           <div style="display: flex; flex-direction: column; gap: 40px; width: 100%;">
             <!-- Grilla de Imágenes (4 por línea) -->
-            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; width: 100%;">
+            <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; width: 100%;">
               <img data-lightbox="true" src="bagu-01.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
               <img data-lightbox="true" src="bagu-02.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
               <img data-lightbox="true" src="bagu-03.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
@@ -104,7 +104,7 @@ const listaProyectos = [
         descripcionES: "<p>Trabajo realizado para La Cosecha, una agencia de marketing y comunicación. El proyecto consistió en la creación de contenido para redes sociales de Ginezen, un consultorio médico enfocado en ginecología.</p><p>Mis responsabilidades incluyeron <b>diseño gráfico</b>, <b>edición de video</b> y <b>motion graphics</b> para piezas destinadas a Instagram y TikTok. También ayudé en la construccion de la indentidad de la marca, colaborando en el armado del brand book.</p>",
         descripcionEN: "<p>Project completed for La Cosecha, a marketing and communications agency. The project involved creating social media content for Ginezen, a gynecology clinic.</p><p>My responsibilities included <b>graphic design</b>, <b>video editing</b>, and <b>motion graphics</b> for Instagram and TikTok content. I also contributed to the development of the brand's visual identity by collaborating on the creation of its brand book.</p>",
         mediaHTML: `
-          <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; width: 100%;">
+          <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; width: 100%;">
             <img data-lightbox="true" src="ginezen-01.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
             <img data-lightbox="true" src="ginezen-02.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
             <img data-lightbox="true" src="ginezen-03.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
