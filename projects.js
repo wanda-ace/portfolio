@@ -11,7 +11,6 @@ const listaProyectos = [
         idPub: "bagu-p1",
         año: "2025",
         titulo: "Bagu Hoteles",
-        tags: ["Cadena hotelera"],
         descripcionES: "<p>Trabajo realizado para La Cosecha, una agencia de marketing y comunicación. El proyecto consistió en la creación de contenido para redes sociales de Hoteles Bagu, una cadena hotelera argentina.</p><p>Mis responsabilidades incluyeron <b>diseño gráfico</b>, <b>edición de video</b> y <b>motion graphics</b> para piezas destinadas a Instagram y TikTok, adaptando el contenido a la identidad visual de la marca y a los formatos propios de cada plataforma.</p>",
         descripcionEN: "<p>Project completed for La Cosecha, a marketing and communications agency. The work involved creating social media content for Hoteles Bagu, an Argentine hotel chain.</p><p>My responsibilities included <b>graphic design</b>, <b>video editing</b>, and <b>motion graphics</b> for Instagram and TikTok content, adapting each piece to the brand's visual identity and the requirements of each platform.</p>",
         mediaHTML: `
@@ -97,7 +96,6 @@ const listaProyectos = [
         idPub: "ginezen-p1",
         año: "2025",
         titulo: "Ginezen",
-        tags: ["Consultorio médico"],
         descripcionES: "<p>Trabajo realizado para La Cosecha, una agencia de marketing y comunicación. El proyecto consistió en la creación de contenido para redes sociales de Ginezen, un consultorio médico enfocado en ginecología.</p><p>Mis responsabilidades incluyeron <b>diseño gráfico</b>, <b>edición de video</b> y <b>motion graphics</b> para piezas destinadas a Instagram y TikTok. También ayudé en la construccion de la indentidad de la marca, colaborando en el armado del brand book.</p>",
         descripcionEN: "<p>Project completed for La Cosecha, a marketing and communications agency. The project involved creating social media content for Ginezen, a gynecology clinic.</p><p>My responsibilities included <b>graphic design</b>, <b>video editing</b>, and <b>motion graphics</b> for Instagram and TikTok content. I also contributed to the development of the brand's visual identity by collaborating on the creation of its brand book.</p>",
         mediaHTML: `
@@ -174,7 +172,6 @@ const listaProyectos = [
         idPub: "aud-mem-p1",
         año: "2023",
         titulo: "memoria",
-        tags: ["animación experimental"],
         descripcionES: "<p>“memoria” es un proyecto de animación resultado de una experimentación de diferentes técnicas audiovisuales: fotografía, imagen en movimiento, dibujos en papel y digitales. Fue realizado para la Universidad de Buenos Aires en el marco de los 40 años de Democracia en Argentina.</p>",
         descripcionEN: "<p>“memoria” is an animation project resulting from experimentation with various audiovisual techniques: photography, moving images, and both paper and digital drawings. It was produced for the University of Buenos Aires in the context of the 40th anniversary of democracy in Argentina.</p>",
         mediaHTML: '<iframe src="https://www.youtube.com/embed/_fNHM4maVpA" title="memoria" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
@@ -190,7 +187,6 @@ const listaProyectos = [
         idPub: "aud-moyo-p1",
         año: "2023",
         titulo: "Moyo",
-        tags: ["cortos de animación 2D"],
         descripcionES: `
           <p>Proyecto de animación 2d que mezcla técnicas de dibujo en papel con dibujo digital.</p>
           <div style="font-family: Google Sans, sans-serif; font-size: 15px; font-weight: 300; color: #000; margin-top: 25px;">Proceso de construcción:</div>
@@ -232,7 +228,6 @@ const listaProyectos = [
         idPub: "aud-cero-p1",
         año: "2023",
         titulo: "cero, nueve",
-        tags: ["video experimental"],
         descripcionES: "<p>Interpretación audiovisual de un sueño.</p>",
         descripcionEN: "<p>Audiovisual interpretation of a dream.</p>",
         mediaHTML: `
@@ -257,7 +252,6 @@ const listaProyectos = [
         idPub: "aud-urdimbre-p1",
         año: "2022",
         titulo: "urdimbre: morfologías e identidad en el espacio público",
-        tags: ["video experimental"],
         descripcionES: `
           <p>"Urdimbre" es un collage audiovisual desarrollada durante 2022 junto a Delfina Di Giacomo. Explora las líneas, los recorridos y las formas que configuran el espacio público. El proyecto surge de una inquietun por observar las morfologías de la ciudad e imaginar las lógicas que subyacen a su organización.</p>
           <p>A partir del tránsito reiterado por los mismos espacios urbanos, la obra dirige su mirada hacia los no-lugares: ámbitos de circulación donde la identidad individual se diluye en el flujo constante de personas. La infraestructura urbana y sus trazados conducen nuestros desplazamientos a través de recorridos aparentemente mecánicos, que por momentos parecen abrir la posibilidad de ser interrumpidos o transformados.</p>
@@ -294,7 +288,6 @@ const listaProyectos = [
         idPub: "aud-entre-p1",
         año: "2022",
         titulo: "entre las dos",
-        tags: ["corto ficcional experimental"],
         descripcionES: `
           <p>"Entre las Dos" es un corto realizado en el marco de la materia Iluminación y Cámara 2 (Cátedra Valansi) de la carrera de Diseño de Imagen y Sonido de la Universidad de Buenos Aires (UBA). En este proyecto me desempeñé como <b>directora</b> y <b>diseñadora de iluminación</b>.</p>
         `,
@@ -327,7 +320,6 @@ const listaProyectos = [
         idPub: "aud-grulla-p1",
         año: "2022",
         titulo: "la grulla",
-        tags: ["docu-ficción"],
         descripcionES: `
           <p>La Grulla es mi abuela. Desde la productora Doña Mutante realizamos este proyecto con el objetivo de construir un retrato íntimo de su espiritualidad y su templanza en el contexto de una ciudad sonora, invasiva y constantemente agitada.</p>
           <p>Más que presentar ese entorno como un conflicto o una fuente de incomodidad, el retrato pone el foco en la manera en que ella habita ese espacio a través de sus rituales cotidianos.</p>
@@ -359,7 +351,6 @@ const listaProyectos = [
         idPub: "aud1-p1",
         año: "2023",
         titulo: "albores",
-        tags: ["docu-ficción"],
         descripcionES: `
           <p>Trabajé como <b>directora</b>, <b>montajista</b> y <b>diseñadora de sonido</b> de "Albores", un cortometraje de docu-ficción estrenado en diciembre de 2023 en el Festival de Cortos de Amorina Cine Bar, un espacio dedicado a la exhibición del cine independiente argentino que reúne a realizadores y realizadoras emergentes.</p>
         `,
@@ -379,7 +370,6 @@ const listaProyectos = [
         idPub: "aud-azar-p1",
         año: "2020",
         titulo: "documental del azar",
-        tags: ["mixed-media"],
         descripcionES: `
           <p>"Documental del azar" es un video experimental realizado como proyecto final de la materia Proyecto Audiovisual 1 (Cátedra Campos/Trilnick) de la carrera de Diseño de Imagen y Sonido de la Universidad de Buenos Aires (UBA).</p>
           <p>El proyecto explora el cruce entre el registro documental y la intervención plástica, combinando imágenes documentales con manipulaciones realizadas directamente sobre los fotogramas para cuestionar los límites entre la representation y la experimentación visual.</p>
@@ -406,7 +396,6 @@ const listaProyectos = [
         idPub: "free-flakka-p1",
         año: "2024",
         titulo: "Flakkaboem Sessions",
-        tags: ["live music sessions"],
         descripcionES: "<p>Postproducción de material audiovisual para sesiones de música en vivo, incluyendo <b> edición de video</b>, <b>corrección de color</b>, <b> sincronización multicámara</b>  y selección de fragmentos para la creación de contenido en formato vertical destinado a Instagram Reels y YouTube Shorts.</p>",
         descripcionEN: "<p>Post-production of audiovisual content for live music sessions, including <b> video editing</b> , <b>color correction</b>, <b> multicamera synchronization</b>, and the selection of highlights for short-form vertical content on Instagram Reels and YouTube Shorts.</p>",
         mediaHTML: `
@@ -446,7 +435,6 @@ const listaProyectos = [
         idPub: "free-lucuma-p1",
         año: "2026",
         titulo: "Lúcuma",
-        tags: ["medio digital especializado en música"],
         descripcionES: "<p><b>Diseño gráfico</b> para redes sociales de Lúcuma, medio latinoamericano de crítica musical. Desarrollo de portadas, carruseles de Instagram y piezas promocionales para la difusión de reseñas y artículos, adaptando cada propuesta visual a la identidad editorial del medio y al contenido de cada publicación.</p>",
         descripcionEN: "<p><b>Graphic design</b> for Lúcuma, a Latin American music criticism platform. Creation of cover images, Instagram carousels, and promotional graphics to support the publication of reviews and editorial content, adapting each visual piece to the platform's editorial identity and the tone of every article.</p>",
         mediaHTML: `
@@ -476,31 +464,104 @@ const listaProyectos = [
         idPub: "inst1-p1",
         año: "2025",
         titulo: "Bajo Sur - Instalación",
-        tags: ["Instalación", "Nuevas Tecnologías", "Fine Arts"],
         descripcionES: "<p>Montaje espacial multimedia inmersivo que investiga de forma crítica las tensiones directas entre la contaminación acústica y las luces artificiales fijas.</p>",
         descripcionEN: "<p>Immersive multimedia spatial staging that critically investigates the direct tensions between acoustic pollution and fixed artificial lights.</p>",
         mediaHTML: '<img src="https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=800">'
       }
     ]
   },
-  { id: "inst-2", categoria: "instalaciones", portadaImg: "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=500", publicaciones: [{ idPub: "inst2-p1", año: "2024", titulo: "Urdimbre - Madrid", tags: ["Instalación", "Vector Art", "Textiles"], descripcionES: "<p>Exhibición interactiva en la muestra colectiva que cruza texturas analógicas pesadas con proyecciones vectoriales de código vivo.</p>", descripcionEN: "<p>Interactive exhibition in the collective showcase that crosses heavy analog textures with live-coded vector projections.</p>", mediaHTML: "" }] },
-  { id: "inst-3", categoria: "instalaciones", portadaImg: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=500", publicaciones: [{ idPub: "inst3-p1", año: "2025", titulo: "Frecuencias Latentes", tags: ["Nuevas Tecnologías", "Granular Sound", "Immersive"], descripcionES: "<p>Performance espacial de carácter interactivo que utiliza síntesis granular manipulada mediante sensores de movimiento corporales.</p>", descripcionEN: "<p>Interactive spatial performance using granular synthesis manipulated through body motion sensors.</p>", mediaHTML: "" }] },
-  { id: "inst-4", categoria: "instalaciones", portadaImg: "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500", publicaciones: [{ idPub: "inst4-p1", año: "2026", titulo: "Humedades Digitales", tags: ["Instalación", "Generative Art", "Algorithms"], descripcionES: "<p>Instalación de arte generativo basada strictly en algoritmos biológicos simulados que mutan según la temperatura ambiente de la sala.</p>", descripcionEN: "<p>Generative art installation strictly based on simulated biological algorithms that mutate according to the room's ambient temperature.</p>", mediaHTML: "" }] },
+  { id: "inst-2", categoria: "instalaciones", portadaImg: "https://images.unsplash.com/photo-1508962914676-134849a727f0?w=500", publicaciones: [{ idPub: "inst2-p1", año: "2024", titulo: "Urdimbre - Madrid", descripcionES: "<p>Exhibición interactiva en la muestra colectiva que cruza texturas analógicas pesadas con proyecciones vectoriales de código vivo.</p>", descripcionEN: "<p>Interactive exhibition in the collective showcase that crosses heavy analog textures with live-coded vector projections.</p>", mediaHTML: "" }] },
+  { id: "inst-3", categoria: "instalaciones", portadaImg: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=500", publicaciones: [{ idPub: "inst3-p1", año: "2025", titulo: "Frecuencias Latentes", descripcionES: "<p>Performance espacial de carácter interactivo que utiliza síntesis granular manipulada mediante sensores de movimiento corporales.</p>", descripcionEN: "<p>Interactive spatial performance using granular synthesis manipulated through body motion sensors.</p>", mediaHTML: "" }] },
+  { id: "inst-4", categoria: "instalaciones", portadaImg: "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=500", publicaciones: [{ idPub: "inst4-p1", año: "2026", titulo: "Humedades Digitales", descripcionES: "<p>Instalación de arte generativo basada strictly en algoritmos biológicos simulados que mutan según la temperatura ambiente de la sala.</p>", descripcionEN: "<p>Generative art installation strictly based on simulated biological algorithms that mutate according to the room's ambient temperature.</p>", mediaHTML: "" }] },
   // ----------------------------------------------------
   // DISEÑO GRÁFICO
   // ----------------------------------------------------
-  { id: "dis-1", categoria: "diseno", portadaImg: "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?w=500", publicaciones: [{ idPub: "dis1-p1", año: "2025", titulo: "Branding Residencial", tags: ["Branding", "Typography", "Editorial Layout"], descripcionES: "<p>Desarrollo de identidad de marca premium y sistemas tipográficos limpios orientados al sector de desarrollos inmobiliarios de lujo.</p>", descripcionEN: "<p>Premium brand identity development and clean typographic systems tailored for the luxury real estate development sector.</p>", mediaHTML: "" }] },
-  { id: "dis-2", font_style: "google-sans", categoria: "diseno", portadaImg: "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?w=500", publicaciones: [{ idPub: "dis2-p1", año: "2025", titulo: "UI/UX Camping App", tags: ["UX/UI", "Figma Design", "Prototyping"], descripcionES: "<p>Prototipado interactivo de alta fidelidad y desarrollo detallado del sistema de componentes responsivos para aplicaciones móviles de turismo aventura.</p>", descripcionEN: "<p>High-fidelity interactive prototyping and detailed development of the responsive component system for adventure tourism mobile applications.</p>", mediaHTML: "" }] },
-  { id: "dis-3", categoria: "diseno", portadaImg: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=500", publicaciones: [{ idPub: "dis3-p1", año: "2025", titulo: "AdeaHealth Interface", tags: ["UX/UI", "Product Design", "Healthcare"], descripcionES: "<p>Rediseño de flujos funcionales y optimización de interfaces críticas para sistemas globales de historias clínicas digitales.</p>", descripcionEN: "<p>Redesign of functional flows and optimization of critical interfaces for global digital medical record systems.</p>", mediaHTML: "" }] },
-  { id: "dis-4", categoria: "diseno", portadaImg: "https://images.unsplash.com/photo-1530587191325-3db32d826c18?w=500", publicaciones: [{ idPub: "dis4-p1", año: "2025", titulo: "Packaging La Cosecha", tags: ["Branding", "Sustainability", "Die-cuts"], descripcionES: "<p>Diseño estructural de empaques sustentables utilizando troqueles mínimos y una paleta tipográfica restrictiva de alta gama.</p>", descripcionEN: "<p>Structural sustainable packaging design using minimal die-cuts and a restrictive high-end typographic palette.</p>", mediaHTML: "" }] },
+  { id: "dis-1", categoria: "diseno", portadaImg: "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?w=500", publicaciones: [{ idPub: "dis1-p1", año: "2025", titulo: "Branding Residencial", descripcionES: "<p>Desarrollo de identidad de marca premium y sistemas tipográficos limpios orientados al sector de desarrollos inmobiliarios de lujo.</p>", descripcionEN: "<p>Premium brand identity development and clean typographic systems tailored for the luxury real estate development sector.</p>", mediaHTML: "" }] },
+  { id: "dis-2", font_style: "google-sans", categoria: "diseno", portadaImg: "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?w=500", publicaciones: [{ idPub: "dis2-p1", año: "2025", titulo: "UI/UX Camping App", descripcionES: "<p>Prototipado interactivo de alta fidelidad y desarrollo detallado del sistema de componentes responsivos para aplicaciones móviles de turismo aventura.</p>", descripcionEN: "<p>High-fidelity interactive prototyping and detailed development of the responsive component system for adventure tourism mobile applications.</p>", mediaHTML: "" }] },
+  { id: "dis-3", categoria: "diseno", portadaImg: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=500", publicaciones: [{ idPub: "dis3-p1", año: "2025", titulo: "AdeaHealth Interface", descripcionES: "<p>Rediseño de flujos funcionales y optimización de interfaces críticas para sistemas globales de historias clínicas digitales.</p>", descripcionEN: "<p>Redesign of functional flows and optimization of critical interfaces for global digital medical record systems.</p>", mediaHTML: "" }] },
+  { id: "dis-4", categoria: "diseno", portadaImg: "https://images.unsplash.com/photo-1530587191325-3db32d826c18?w=500", publicaciones: [{ idPub: "dis4-p1", año: "2025", titulo: "Packaging La Cosecha", descripcionES: "<p>Diseño estructural de empaques sustentables utilizando troqueles mínimos y una paleta tipográfica restrictiva de alta gama.</p>", descripcionEN: "<p>Structural sustainable packaging design using minimal die-cuts and a restrictive high-end typographic palette.</p>", mediaHTML: "" }] },
   // ----------------------------------------------------
   // FOTOGRAFÍA
   // ----------------------------------------------------
-  { id: "foto-1", categoria: "fotografia", portadaImg: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=500", publicaciones: [{ idPub: "fot1-p1", año: "2024", titulo: "Conciertos Under 2024", tags: ["Fotografía", "Analog Film", "High Contrast"], descripcionES: "<p>Registro fotográfico en blanco y negro de alto contraste capturado íntegramente con película analógica de alta sensibilidad forzada.</p>", descripcionEN: "<p>High-contrast black and white photographic registry entirely captured with pushed analog high-sensitivity film.</p>", mediaHTML: "" }] },
-  { id: "foto-2", categoria: "fotografia", portadaImg: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=500", publicaciones: [{ idPub: "fot2-p1", año: "2025", titulo: "Arquitectura Simétrica", tags: ["Fotografía", "Geometry", "Urban Architecture"], descripcionES: "<p>Ensayo visual enfocado en la ortogonalidad y la rigidez estructural de las fachadas brutalistas sobrevivientes en centros urbanos.</p>", descripcionEN: "<p>Visual essay focused on the orthogonal and structural rigidity of surviving brutalist facades in urban centers.</p>", mediaHTML: "" }] },
-  { id: "foto-3", categoria: "fotografia", portadaImg: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500", publicaciones: [{ idPub: "fot3-p1", año: "2024", titulo: "Retratos de Artistas", tags: ["Fotografía", "Lighting", "Portraits"], descripcionES: "<p>Sesiones de estudio personalizadas para músicos utilizando iluminación puntual indirecta para acentuar el carácter dramático de la pieza.</p>", descripcionEN: "<p>Custom studio sessions for musicians utilizing precise indirect lighting to enhance the dramatic character of the piece.</p>", mediaHTML: "" }] },
-  { id: "foto-4", categoria: "fotografia", portadaImg: "https://images.unsplash.com/photo-1449034446853-66c86144b0ad?w=500", publicaciones: [{ idPub: "foto-4-p1", año: "2026", titulo: "Espacios Vacíos", tags: ["Fotografía", "Industrial Decay", "Fine Arts"], descripcionES: "<p>Exploración estética sobre el deterioro institucional a través del registro analógico detallado de locaciones industriales en desuso.</p>", descripcionEN: "<p>Aesthetic exploration regarding institutional decay through detailed analog registry of defunct industrial locations.</p>", mediaHTML: "" }] }
+  {
+    id: "foto-concert-photography",
+    categoria: "fotografia",
+    portadaImg: "img/portadas/portada-concert.jpg",
+    publicaciones: [
+      {
+        idPub: "foto-concert-p1",
+        año: "2023",
+        titulo: "Concert photography",
+        descripcionES: `
+          <p>14/01/2023<br>Ooodisea en W Morris, Villa Crespo, CABA.</p>
+          <p>21/04/2023<br>Kill Flora en Bernal, Quilmes.</p>
+          <p>16/12/2022<br>Nenagenix en Beatflow, Palermo, CABA.</p>
+          <p>16/12/2022<br>El Club Audiovisual en Beatflow, Palermo, CABA.</p>
+        `,
+        descripcionEN: `
+          <p>14/01/2023<br>Ooodisea at W Morris, Villa Crespo, CABA.</p>
+          <p>21/04/2023<br>Kill Flora at Bernal, Quilmes.</p>
+          <p>16/12/2022<br>Nenagenix at Beatflow, Palermo, CABA.</p>
+          <p>16/12/2022<br>El Club Audiovisual at Beatflow, Palermo, CABA.</p>
+        `,
+        mediaHTML: `
+          <div style="display: flex; flex-direction: column; gap: 40px; width: 100%;">
+            <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; width: 100%;">
+              <img data-lightbox="true" src="concert-001.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-002.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-003.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-004.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-005.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-006.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-007.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-008.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-009.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-010.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-011.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-012.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-013.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-014.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-015.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-016.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-017.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-018.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-019.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-020.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-021.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-022.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-023.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-024.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-025.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-026.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-027.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-028.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-029.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-030.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-031.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-032.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-033.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-034.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-035.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-036.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-037.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-038.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-039.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-040.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-041.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-042.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="concert-043.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            </div>
+          </div>
+        `
+      }
+    ]
+  },
+  { id: "foto-1", categoria: "fotografia", portadaImg: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=500", publicaciones: [{ idPub: "fot1-p1", año: "2024", titulo: "Conciertos Under 2024", descripcionES: "<p>Registro fotográfico en blanco y negro de alto contraste capturado íntegramente con película analógica de alta sensibilidad forzada.</p>", descripcionEN: "<p>High-contrast black and white photographic registry entirely captured with pushed analog high-sensitivity film.</p>", mediaHTML: "" }] },
+  { id: "foto-2", categoria: "fotografia", portadaImg: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=500", publicaciones: [{ idPub: "fot2-p1", año: "2025", titulo: "Arquitectura Simétrica", descripcionES: "<p>Ensayo visual enfocado en la ortogonalidad y la rigidez estructural de las fachadas brutalistas sobrevivientes en centros urbanos.</p>", descripcionEN: "<p>Visual essay focused on the orthogonal and structural rigidity of surviving brutalist facades in urban centers.</p>", mediaHTML: "" }] },
+  { id: "foto-3", categoria: "fotografia", portadaImg: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500", publicaciones: [{ idPub: "fot3-p1", año: "2024", titulo: "Retratos de Artistas", descripcionES: "<p>Sesiones de estudio personalizadas para músicos utilizando iluminación puntual indirecta para acentuar el carácter dramático de la pieza.</p>", descripcionEN: "<p>Custom studio sessions for musicians utilizing precise indirect lighting to enhance the dramatic character of the piece.</p>", mediaHTML: "" }] },
+  { id: "foto-4", categoria: "fotografia", portadaImg: "https://images.unsplash.com/photo-1449034446853-66c86144b0ad?w=500", publicaciones: [{ idPub: "foto-4-p1", año: "2026", titulo: "Espacios Vacíos", descripcionES: "<p>Exploración estética sobre el deterioro institucional a través del registro analógico detallado de locaciones industriales en desuso.</p>", descripcionEN: "<p>Aesthetic exploration regarding institutional decay through detailed analog registry of defunct industrial locations.</p>", mediaHTML: "" }] }
 ];
+
 const textoBio = `
     <div class="bio-content-view" style="font-family: Google Sans, sans-serif; display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px; width: 100%;">
         <div class="bio-es" style="font-weight: 300; font-size: 15px; line-height: 1.6; color: #000;">
@@ -513,18 +574,21 @@ const textoBio = `
         </div>
     </div>
 `;
+
 let categoriaActual = 'todos';
 let imagenesLightboxActuales = [];
 let indiceLightboxActual = 0;
 
 function irAHome() {
-    document.getElementById('filtros-comerciales').classList.add('hidden');
+    const filtrosComerciales = document.getElementById('filtros-comerciales');
+    if (filtrosComerciales) filtrosComerciales.classList.add('hidden');
     document.getElementById('back-button-container').classList.add('hidden');
     document.getElementById('dynamic-content').innerHTML = '';
 }
 
 function mostrarInfo() {
-    document.getElementById('filtros-comerciales').classList.add('hidden');
+    const filtrosComerciales = document.getElementById('filtros-comerciales');
+    if (filtrosComerciales) filtrosComerciales.classList.add('hidden');
     document.getElementById('back-button-container').classList.add('hidden');
     document.getElementById('dynamic-content').innerHTML = textoBio;
 }
@@ -558,37 +622,11 @@ function renderizarGrillaProyectos(proyectosAVisualizar) {
     contenedor.appendChild(divGrilla);
 }
 
-function renderizarGrillaPublicacionesFiltradas(publicacionesFiltradas) {
-    const contenedor = document.getElementById('dynamic-content');
-    contenedor.innerHTML = '';
-    const divGrilla = document.createElement('div');
-    divGrilla.className = 'grid-proyectos';
-    divGrilla.style.display = 'grid';
-    divGrilla.style.width = '100%';
-    publicacionesFiltradas.forEach(item => {
-        const tarjeta = document.createElement('div');
-        tarjeta.className = 'proyecto-tarjeta';
-        tarjeta.setAttribute('onclick', `verProyecto('${item.padreId}')`);
-        tarjeta.style.fontFamily = 'Google Sans, sans-serif';
-        tarjeta.style.width = '100%';
-        let previewTexto = item.pub.descripcionES.replaceAll('<b>', '<b style="font-weight: 500;">');
-        tarjeta.innerHTML = `
-            <img class="proyecto-tarjeta-media" src="${item.padreImg}" alt="${item.pub.titulo}" style="width: 100%;">
-            <div class="pub-ano" style="font-family: Google Sans, sans-serif; font-size: 14px; margin-top: 10px;">${item.pub.año}</div>
-            <h3 style="font-family: Google Sans, sans-serif; font-size: 17px; margin-top: 4px; margin-bottom: 8px;">${item.pub.titulo}</h3>
-            <div class="line-clamp-preview" style="font-family: Google Sans, sans-serif; font-weight: 300; font-size: 14px;">
-                ${previewTexto} <span class="mas-link" style="color: #76C4AA;">[+]</span>
-            </div>
-        `;
-        divGrilla.appendChild(tarjeta);
-    });
-    contenedor.appendChild(divGrilla);
-}
-
 function verProyecto(idProyecto) {
     const proy = listaProyectos.find(p => p.id === idProyecto);
     if (!proy) return;
-    document.getElementById('filtros-comerciales').classList.add('hidden');
+    const filtrosComerciales = document.getElementById('filtros-comerciales');
+    if (filtrosComerciales) filtrosComerciales.classList.add('hidden');
     
     const botonVolver = document.getElementById('back-button-container');
     if (botonVolver) {
@@ -625,8 +663,7 @@ function verProyecto(idProyecto) {
         contenidoHTML += `
             <div class="publicacion-item" style="margin-bottom: 50px; font-family: Google Sans, sans-serif; width: 100%;">
                 <div class="pub-ano" style="font-size: 18px; font-weight: 400; color: #999; margin-bottom: 4px;">${pub.año}</div>
-                <div class="pub-titulo-interno" style="font-size: 32px; font-weight: 700; color: #000; margin-bottom: 8px; line-height: 1.2;">${pub.titulo}</div>
-                <div class="pub-tags" style="font-size: 16px; color: #76C4AA; font-weight: 400; margin-bottom: 35px; letter-spacing: 0.5px;">${pub.tags.join(' - ')}</div>
+                <div class="pub-titulo-interno" style="font-size: 32px; font-weight: 700; color: #000; margin-bottom: 25px; line-height: 1.2;">${pub.titulo}</div>
                 
                 <div class="idiomas-columnas-container" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px; width: 100%; margin-bottom: 35px;">
                     <div class="descripcion-bloque-es">${descES}</div>
@@ -652,34 +689,12 @@ function volverALaGrilla() {
 function filtrarCategoria(cat) {
     categoriaActual = cat;
     document.getElementById('back-button-container').classList.add('hidden');
-    
-    if (cat === 'comercial') {
-        document.getElementById('filtros-comerciales').classList.remove('hidden');
-    } else {
-        document.getElementById('filtros-comerciales').classList.add('hidden');
+    const filtrosComerciales = document.getElementById('filtros-comerciales');
+    if (filtrosComerciales) {
+        filtrosComerciales.classList.add('hidden');
     }
     const filtrados = listaProyectos.filter(p => p.categoria === cat);
     renderizarGrillaProyectos(filtrados);
-}
-
-function filtrarPorMetadato(tagBuscado) {
-    document.getElementById('back-button-container').classList.add('hidden');
-    let publicacionesCoincidentes = [];
-    listaProyectos.forEach(proy => {
-        if (proy.categoria === 'comercial') {
-            proy.publicaciones.forEach(pub => {
-                if (pub.tags.includes(tagBuscado)) {
-                    publicacionesCoincidentes.push({
-                        padreId: proy.id,
-                        padreImg: proy.portadaImg,
-                        pub: pub
-                    });
-                }
-            });
-        }
-    });
-    
-    renderizarGrillaPublicacionesFiltradas(publicacionesCoincidentes);
 }
 
 document.addEventListener('click', function(event) {
