@@ -490,308 +490,95 @@ const listaProyectos = [
     publicaciones: [
       {
         idPub: "foto-concert-p1",
-        año: "2023",
+        año: "2022 - 2023",
         titulo: "Concert photography",
-        descripcionES: `
-          <p>14/01/2023<br>Ooodisea en W Morris, Villa Crespo, CABA.</p>
-          <p>21/04/2023<br>Kill Flora en Bernal, Quilmes.</p>
-          <p>16/12/2022<br>Nenagenix en Beatflow, Palermo, CABA.</p>
-          <p>16/12/2022<br>El Club Audiovisual en Beatflow, Palermo, CABA.</p>
-        `,
-        descripcionEN: `
-          <p>14/01/2023<br>Ooodisea at W Morris, Villa Crespo, CABA.</p>
-          <p>21/04/2023<br>Kill Flora at Bernal, Quilmes.</p>
-          <p>16/12/2022<br>Nenagenix at Beatflow, Palermo, CABA.</p>
-          <p>16/12/2022<br>El Club Audiovisual at Beatflow, Palermo, CABA.</p>
-        `,
+        descripcionES: "",
+        descripcionEN: "",
         mediaHTML: `
-          <div style="display: flex; flex-direction: column; gap: 40px; width: 100%;">
-            <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; width: 100%;">
-              <img data-lightbox="true" src="concert-001.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-002.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-003.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-004.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-005.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-006.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-007.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-008.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-009.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-010.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-011.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-012.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-013.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-014.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-015.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-016.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-017.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-018.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-019.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-020.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-021.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-022.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-023.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-024.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-025.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-026.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-027.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-028.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-029.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-030.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-031.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-032.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-033.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-034.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-035.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-036.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-037.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-038.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-039.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-040.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-041.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-042.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="concert-043.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+          <div style="display: flex; flex-direction: column; gap: 30px; width: 100%;">
+            
+            <!-- BLOQUE 1 -->
+            <div>
+              <p style="margin: 0 0 10px 0; font-size: 15px; line-height: 1.6; color: #000; font-weight: 300;">
+                14/01/2023<br>Ooodisea en W Morris, Villa Crespo, CABA.
+              </p>
+              <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; width: 100%;">
+                <img data-lightbox="true" src="concert-001.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-002.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-003.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-004.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-005.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-006.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-007.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-008.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-009.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-010.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              </div>
             </div>
+
+            <!-- BLOQUE 2 -->
+            <div>
+              <p style="margin: 0 0 10px 0; font-size: 15px; line-height: 1.6; color: #000; font-weight: 300;">
+                21/04/2023<br>Kill Flora en Bernal, Quilmes.
+              </p>
+              <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; width: 100%;">
+                <img data-lightbox="true" src="concert-011.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-012.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-013.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-014.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-015.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-016.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-017.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-018.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-019.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-020.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-021.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              </div>
+            </div>
+
+            <!-- BLOQUE 3 -->
+            <div>
+              <p style="margin: 0 0 10px 0; font-size: 15px; line-height: 1.6; color: #000; font-weight: 300;">
+                16/12/2022<br>Nenagenix en Beatflow, Palermo, CABA.
+              </p>
+              <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; width: 100%;">
+                <img data-lightbox="true" src="concert-022.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-023.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-024.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-025.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-026.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-027.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-028.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-029.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-030.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-031.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-032.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              </div>
+            </div>
+
+            <!-- BLOQUE 4 -->
+            <div>
+              <p style="margin: 0 0 10px 0; font-size: 15px; line-height: 1.6; color: #000; font-weight: 300;">
+                16/12/2022<br>El Club Audiovisual en Beatflow, Palermo, CABA.
+              </p>
+              <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; width: 100%;">
+                <img data-lightbox="true" src="concert-033.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-034.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-035.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-036.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-037.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-038.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-039.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-040.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-041.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-042.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="concert-043.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              </div>
+            </div>
+
           </div>
         `
       }
     ]
-  },
-  { id: "foto-1", categoria: "fotografia", portadaImg: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=500", publicaciones: [{ idPub: "fot1-p1", año: "2024", titulo: "Conciertos Under 2024", descripcionES: "<p>Registro fotográfico en blanco y negro de alto contraste capturado íntegramente con película analógica de alta sensibilidad forzada.</p>", descripcionEN: "<p>High-contrast black and white photographic registry entirely captured with pushed analog high-sensitivity film.</p>", mediaHTML: "" }] },
-  { id: "foto-2", categoria: "fotografia", portadaImg: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=500", publicaciones: [{ idPub: "fot2-p1", año: "2025", titulo: "Arquitectura Simétrica", descripcionES: "<p>Ensayo visual enfocado en la ortogonalidad y la rigidez estructural de las fachadas brutalistas sobrevivientes en centros urbanos.</p>", descripcionEN: "<p>Visual essay focused on the orthogonal and structural rigidity of surviving brutalist facades in urban centers.</p>", mediaHTML: "" }] },
-  { id: "foto-3", categoria: "fotografia", portadaImg: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500", publicaciones: [{ idPub: "fot3-p1", año: "2024", titulo: "Retratos de Artistas", descripcionES: "<p>Sesiones de estudio personalizadas para músicos utilizando iluminación puntual indirecta para acentuar el carácter dramático de la pieza.</p>", descripcionEN: "<p>Custom studio sessions for musicians utilizing precise indirect lighting to enhance the dramatic character of the piece.</p>", mediaHTML: "" }] },
-  { id: "foto-4", categoria: "fotografia", portadaImg: "https://images.unsplash.com/photo-1449034446853-66c86144b0ad?w=500", publicaciones: [{ idPub: "foto-4-p1", año: "2026", titulo: "Espacios Vacíos", descripcionES: "<p>Exploración estética sobre el deterioro institucional a través del registro analógico detallado de locaciones industriales en desuso.</p>", descripcionEN: "<p>Aesthetic exploration regarding institutional decay through detailed analog registry of defunct industrial locations.</p>", mediaHTML: "" }] }
+  }
 ];
-
-const textoBio = `
-    <div class="bio-content-view" style="font-family: Google Sans, sans-serif; display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px; width: 100%;">
-        <div class="bio-es" style="font-weight: 300; font-size: 15px; line-height: 1.6; color: #000;">
-            <p style="margin-bottom: 16px;"><b style="font-weight: 500;">Wanda Acevedo</b> es Diseñadora Audiovisual especializada en edición de video, diseño gráfico y producción de contenido digital para diferentes marcas, proyectos y empresas.</p>
-            <p style="margin-bottom: 16px;">Especializada en la Universidad de Buenos Aires (UBA) y con un fuerte enfoque técnico, investiga narrativas contemporáneas y las tecnologías creativas emergentes.</p>
-        </div>
-        <div class="bio-en" style="font-weight: 300; font-size: 15px; line-height: 1.6; color: #777;">
-            <p style="margin-bottom: 16px;"><b style="font-weight: 500;">Wanda Acevedo</b> is an Audiovisual Designer specializing in video editing, graphic design, and digital content production for various brands, projects, and companies.</p>
-            <p style="margin-bottom: 16px;">Formed at the University of Buenos Aires (UBA) and with a strong technical focus, she researches contemporary narratives and emerging creative technologies.</p>
-        </div>
-    </div>
-`;
-
-let categoriaActual = 'todos';
-let imagenesLightboxActuales = [];
-let indiceLightboxActual = 0;
-
-function irAHome() {
-    const filtrosComerciales = document.getElementById('filtros-comerciales');
-    if (filtrosComerciales) filtrosComerciales.classList.add('hidden');
-    document.getElementById('back-button-container').classList.add('hidden');
-    document.getElementById('dynamic-content').innerHTML = '';
-}
-
-function mostrarInfo() {
-    const filtrosComerciales = document.getElementById('filtros-comerciales');
-    if (filtrosComerciales) filtrosComerciales.classList.add('hidden');
-    document.getElementById('back-button-container').classList.add('hidden');
-    document.getElementById('dynamic-content').innerHTML = textoBio;
-}
-
-function renderizarGrillaProyectos(proyectosAVisualizar) {
-    const contenedor = document.getElementById('dynamic-content');
-    contenedor.innerHTML = '';
-    const divGrilla = document.createElement('div');
-    divGrilla.className = 'grid-proyectos';
-    divGrilla.style.display = 'grid';
-    divGrilla.style.width = '100%';
-    proyectosAVisualizar.forEach(proy => {
-        const primeraPub = proy.publicaciones[0];
-        if (!primeraPub) return;
-        const tarjeta = document.createElement('div');
-        tarjeta.className = 'proyecto-tarjeta';
-        tarjeta.setAttribute('onclick', `verProyecto('${proy.id}')`);
-        tarjeta.style.fontFamily = 'Google Sans, sans-serif';
-        tarjeta.style.width = '100%';
-        let previewTexto = primeraPub.descripcionES.replaceAll('<b>', '<b style="font-weight: 500;">');
-        tarjeta.innerHTML = `
-            <img class="proyecto-tarjeta-media" src="${proy.portadaImg}" alt="${primeraPub.titulo}" style="width: 100%;">
-            <div class="pub-ano" style="font-family: Google Sans, sans-serif; font-size: 14px; margin-top: 10px;">${primeraPub.año}</div>
-            <h3 style="font-family: Google Sans, sans-serif; font-size: 17px; margin-top: 4px; margin-bottom: 8px;">${primeraPub.titulo}</h3>
-            <div class="line-clamp-preview" style="font-family: Google Sans, sans-serif; font-weight: 300; font-size: 14px;">
-                ${previewTexto} <span class="mas-link" style="color: #76C4AA;">[+]</span>
-            </div>
-        `;
-        divGrilla.appendChild(tarjeta);
-    });
-    contenedor.appendChild(divGrilla);
-}
-
-function verProyecto(idProyecto) {
-    const proy = listaProyectos.find(p => p.id === idProyecto);
-    if (!proy) return;
-    const filtrosComerciales = document.getElementById('filtros-comerciales');
-    if (filtrosComerciales) filtrosComerciales.classList.add('hidden');
-    
-    const botonVolver = document.getElementById('back-button-container');
-    if (botonVolver) {
-        botonVolver.classList.remove('hidden');
-    }
-    const contenedor = document.getElementById('dynamic-content');
-    contenedor.innerHTML = '';
-    const divProyecto = document.createElement('div');
-    divProyecto.className = 'proyecto-interno';
-    divProyecto.style.width = '100%';
-    divProyecto.style.maxWidth = '100%';
-    
-    let contenidoHTML = '';
-    proy.publicaciones.forEach(pub => {
-        let mediaRenderizado = pub.mediaHTML;
-        
-        if (mediaRenderizado && mediaRenderizado.includes('<iframe') && !mediaRenderizado.includes('display: grid') && !mediaRenderizado.includes('display: flex')) {
-            mediaRenderizado = mediaRenderizado.replace(/width="[^"]*"/, '').replace(/height="[^"]*"/, '');
-            mediaRenderizado = `
-                <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                    ${mediaRenderizado.replace('<iframe', '<iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"')}
-                </div>
-            `;
-        } else if (mediaRenderizado && mediaRenderizado.includes('<img') && !mediaRenderizado.includes('display: grid')) {
-            mediaRenderizado = mediaRenderizado.replaceAll('<img', '<img data-lightbox="true" style="cursor:pointer; width: 100%; height: auto; border-radius: 4px;"');
-        }
-        let descES = pub.descripcionES.replaceAll('<p>', '<p style="margin: 0 0 16px 0; font-size: 15px; line-height: 1.6; color: #000; font-weight: 300;">');
-        descES = descES.replaceAll('<b>', '<b style="font-weight: 500; color: #000;">');
-        descES = descES.replaceAll('<strong>', '<strong style="font-weight: 500; color: #000;">');
-        
-        let descEN = pub.descripcionEN.replaceAll('<p>', '<p style="margin: 0 0 16px 0; font-size: 15px; line-height: 1.6; color: #777; font-weight: 300;">');
-        descEN = descEN.replaceAll('<b>', '<b style="font-weight: 500; color: #555;">');
-        descEN = descEN.replaceAll('<strong>', '<strong style="font-weight: 500; color: #555;">');
-        contenidoHTML += `
-            <div class="publicacion-item" style="margin-bottom: 50px; font-family: Google Sans, sans-serif; width: 100%;">
-                <div class="pub-ano" style="font-size: 18px; font-weight: 400; color: #999; margin-bottom: 4px;">${pub.año}</div>
-                <div class="pub-titulo-interno" style="font-size: 32px; font-weight: 700; color: #000; margin-bottom: 25px; line-height: 1.2;">${pub.titulo}</div>
-                
-                <div class="idiomas-columnas-container" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px; width: 100%; margin-bottom: 35px;">
-                    <div class="descripcion-bloque-es">${descES}</div>
-                    <div class="descripcion-bloque-en">${descEN}</div>
-                </div>
-                
-                <div class="pub-media-container" style="width: 100%; margin-top: 25px;">
-                    ${mediaRenderizado || '<div style="font-size:11px;color:#999999;padding:20px;border:1px dashed #ddd;text-align:center;">[ espacio multimedia vacío / empty media slot ]</div>'}
-                </div>
-            </div>
-        `;
-    });
-    divProyecto.innerHTML = contenidoHTML;
-    contenedor.appendChild(divProyecto);
-    window.scrollTo(0,0);
-}
-
-function volverALaGrilla() {
-    document.getElementById('back-button-container').classList.add('hidden');
-    filtrarCategoria(categoriaActual);
-}
-
-function filtrarCategoria(cat) {
-    categoriaActual = cat;
-    document.getElementById('back-button-container').classList.add('hidden');
-    const filtrosComerciales = document.getElementById('filtros-comerciales');
-    if (filtrosComerciales) {
-        filtrosComerciales.classList.add('hidden');
-    }
-    const filtrados = listaProyectos.filter(p => p.categoria === cat);
-    renderizarGrillaProyectos(filtrados);
-}
-
-document.addEventListener('click', function(event) {
-    if (event.target.hasAttribute('data-lightbox') || event.target.closest('[data-lightbox]')) {
-        const targetImg = event.target.tagName === 'IMG' ? event.target : event.target.querySelector('img');
-        if (!targetImg) return;
-        
-        const todasLasImgs = Array.from(document.querySelectorAll('#dynamic-content img[data-lightbox="true"]'));
-        imagenesLightboxActuales = todasLasImgs.map(img => img.getAttribute('src'));
-        
-        const urlImagen = targetImg.getAttribute('src');
-        indiceLightboxActual = imagenesLightboxActuales.indexOf(urlImagen);
-        if (indiceLightboxActual === -1) {
-            imagenesLightboxActuales = [urlImagen];
-            indiceLightboxActual = 0;
-        }
-        const modal = document.getElementById('lightbox-modal');
-        if (modal) {
-            modal.classList.remove('hidden');
-            actualizarImagenLightbox();
-            inyectarFlechasNavegacion(modal);
-        }
-    }
-});
-
-function actualizarImagenLightbox() {
-    const imagenModal = document.getElementById('lightbox-img');
-    if (imagenModal && imagenesLightboxActuales.length > 0) {
-        imagenModal.src = imagenesLightboxActuales[indiceLightboxActual];
-    }
-    const btnPrev = document.getElementById('lightbox-prev-btn');
-    const btnNext = document.getElementById('lightbox-next-btn');
-    if (btnPrev && btnNext) {
-        if (imagenesLightboxActuales.length <= 1) {
-            btnPrev.style.display = 'none';
-            btnNext.style.display = 'none';
-        } else {
-            btnPrev.style.display = 'block';
-            btnNext.style.display = 'block';
-        }
-    }
-}
-
-function inyectarFlechasNavegacion(modal) {
-    if (document.getElementById('lightbox-prev-btn')) return;
-    const btnPrev = document.createElement('button');
-    btnPrev.id = 'lightbox-prev-btn';
-    btnPrev.innerHTML = '&#8592;';
-    btnPrev.style.cssText = 'position: absolute; left: 20px; top: 50%; transform: translateY(-50%); background: none; border: none; color: #ffffff; font-size: 35px; cursor: pointer; padding: 10px; z-index: 10010; transition: opacity 0.2s;';
-    btnPrev.setAttribute('onclick', 'lightboxAnterior(event)');
-    
-    const btnNext = document.createElement('button');
-    btnNext.id = 'lightbox-next-btn';
-    btnNext.innerHTML = '&#8594;';
-    btnNext.style.cssText = 'position: absolute; right: 20px; top: 50%; transform: translateY(-50%); background: none; border: none; color: #ffffff; font-size: 35px; cursor: pointer; padding: 10px; z-index: 10010; transition: opacity 0.2s;';
-    btnNext.setAttribute('onclick', 'lightboxSiguiente(event)');
-    [btnPrev, btnNext].forEach(btn => {
-        btn.onmouseover = () => btn.style.opacity = '0.7';
-        btn.onmouseout = () => btn.style.opacity = '1';
-    });
-    modal.appendChild(btnPrev);
-    modal.appendChild(btnNext);
-    actualizarImagenLightbox();
-}
-
-function lightboxAnterior(event) {
-    if (event) event.stopPropagation();
-    if (imagenesLightboxActuales.length <= 1) return;
-    indiceLightboxActual = (indiceLightboxActual - 1 + imagenesLightboxActuales.length) % imagenesLightboxActuales.length;
-    actualizarImagenLightbox();
-}
-
-function lightboxSiguiente(event) {
-    if (event) event.stopPropagation();
-    if (imagenesLightboxActuales.length <= 1) return;
-    indiceLightboxActual = (indiceLightboxActual + 1) % imagenesLightboxActuales.length;
-    actualizarImagenLightbox();
-}
-
-document.addEventListener('keydown', function(event) {
-    const modal = document.getElementById('lightbox-modal');
-    if (modal && !modal.classList.contains('hidden')) {
-        if (event.key === 'ArrowLeft') {
-            lightboxAnterior(null);
-        } else if (event.key === 'ArrowRight') {
-            lightboxSiguiente(null);
-        } else if (event.key === 'Escape') {
-            cerrarImagen();
-        }
-    }
-});
-
-function cerrarImagen() {
-    const modal = document.getElementById('lightbox-modal');
-    if (modal) {
-        modal.classList.add('hidden');
-    }
-}
-
-irAHome();
