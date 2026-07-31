@@ -16,7 +16,7 @@ const listaProyectos = [
         descripcionEN: "<p>Project completed for La Cosecha, a marketing and communications agency. The work involved creating social media content for Hoteles Bagu, an Argentine hotel chain.</p><p>My responsibilities included <b>graphic design</b>, <b>video editing</b>, and <b>motion graphics</b> for Instagram and TikTok content, adapting each piece to the brand's visual identity and the requirements of each platform.</p>",
         mediaHTML: `
           <div style="display: flex; flex-direction: column; gap: 40px; width: 100%;">
-            <!-- Grilla de Imágenes (4 por línea) -->
+            <!-- Grilla de Imágenes (6 por línea) -->
             <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; width: 100%;">
               <img data-lightbox="true" src="bagu-01.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
               <img data-lightbox="true" src="bagu-02.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
@@ -60,8 +60,7 @@ const listaProyectos = [
               <img data-lightbox="true" src="bagu-40.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
               <img data-lightbox="true" src="bagu-41.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
             </div>
-
-            <!-- Videos Dailymotion (2 por línea) -->
+            <!-- Videos Dailymotion (3 por línea) -->
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
               <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
                 <iframe src="https://www.dailymotion.com/embed/video/kAmVwc6UTMacT4Ih9Ke" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
@@ -69,16 +68,14 @@ const listaProyectos = [
               <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
                 <iframe src="https://www.dailymotion.com/embed/video/k6behSRNlI3GorIh9Kq" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
-            </div>
-            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
               <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
                 <iframe src="https://www.dailymotion.com/embed/video/kvmIo4byvpNG1iIh9K2" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
               <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
                 <iframe src="https://www.dailymotion.com/embed/video/k4rSjATXJBFqlPIh9Ki" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
-            </div>
-            <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
               <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
                 <iframe src="https://www.dailymotion.com/embed/video/k7E1EA6VT9ntolIh9Km" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
@@ -504,7 +501,6 @@ const listaProyectos = [
   { id: "foto-3", categoria: "fotografia", portadaImg: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500", publicaciones: [{ idPub: "fot3-p1", año: "2024", titulo: "Retratos de Artistas", tags: ["Fotografía", "Lighting", "Portraits"], descripcionES: "<p>Sesiones de estudio personalizadas para músicos utilizando iluminación puntual indirecta para acentuar el carácter dramático de la pieza.</p>", descripcionEN: "<p>Custom studio sessions for musicians utilizing precise indirect lighting to enhance the dramatic character of the piece.</p>", mediaHTML: "" }] },
   { id: "foto-4", categoria: "fotografia", portadaImg: "https://images.unsplash.com/photo-1449034446853-66c86144b0ad?w=500", publicaciones: [{ idPub: "foto-4-p1", año: "2026", titulo: "Espacios Vacíos", tags: ["Fotografía", "Industrial Decay", "Fine Arts"], descripcionES: "<p>Exploración estética sobre el deterioro institucional a través del registro analógico detallado de locaciones industriales en desuso.</p>", descripcionEN: "<p>Aesthetic exploration regarding institutional decay through detailed analog registry of defunct industrial locations.</p>", mediaHTML: "" }] }
 ];
-
 const textoBio = `
     <div class="bio-content-view" style="font-family: Google Sans, sans-serif; display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px; width: 100%;">
         <div class="bio-es" style="font-weight: 300; font-size: 15px; line-height: 1.6; color: #000;">
@@ -517,7 +513,6 @@ const textoBio = `
         </div>
     </div>
 `;
-
 let categoriaActual = 'todos';
 let imagenesLightboxActuales = [];
 let indiceLightboxActual = 0;
@@ -753,20 +748,14 @@ function inyectarFlechasNavegacion(modal) {
 function lightboxAnterior(event) {
     if (event) event.stopPropagation();
     if (imagenesLightboxActuales.length <= 1) return;
-    indiceLightboxActual--;
-    if (indiceLightboxActual < 0) {
-        indiceLightboxActual = imagenesLightboxActuales.length - 1;
-    }
+    indiceLightboxActual = (indiceLightboxActual - 1 + imagenesLightboxActuales.length) % imagenesLightboxActuales.length;
     actualizarImagenLightbox();
 }
 
 function lightboxSiguiente(event) {
     if (event) event.stopPropagation();
     if (imagenesLightboxActuales.length <= 1) return;
-    indiceLightboxActual++;
-    if (indiceLightboxActual >= imagenesLightboxActuales.length) {
-        indiceLightboxActual = 0;
-    }
+    indiceLightboxActual = (indiceLightboxActual + 1) % imagenesLightboxActuales.length;
     actualizarImagenLightbox();
 }
 
