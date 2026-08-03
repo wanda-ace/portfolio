@@ -3,6 +3,82 @@ const listaProyectos = [
   // MARCAS / COMERCIAL
   // ----------------------------------------------------
   {
+    id: "com-techround-uk",
+    categoria: "comercial",
+    portadaImg: "img/portadas/portada-techround",
+    publicaciones: [
+      {
+        idPub: "techround-p1",
+        año: "2025-2026",
+        titulo: "TechRound UK",
+        descripcionES: "<p>Producción de contenido audiovisual a partir de noticias, artículos editoriales, entrevistas y material UGC, adaptado a múltiples formatos y plataformas (YouTube y redes sociales). Trabajo coordinado con equipo editorial y colaboradores externos.</p>",
+        descripcionEN: "<p>Production of audiovisual content from news articles, editorials, interviews and UGC, adapted to multiple formats and platforms (YouTube and social media). Coordinated work with editorial team and external collaborators.</p>",
+        mediaHTML: `
+          <div style="display: flex; flex-direction: column; gap: 40px; width: 100%;">
+            <!-- Bloque 1: Article-Based Videos -->
+            <div>
+              <h4 style="font-family: Google Sans, sans-serif; font-size: 18px; font-weight: 700; margin-bottom: 15px; color: #000;">Article-Based Videos</h4>
+              <div style="position: relative; width: 100%; display: flex; align-items: center;">
+                <button onclick="document.getElementById('slider-article').scrollBy({left: -600, behavior: 'smooth'})" style="position: absolute; left: -15px; z-index: 10; background: rgba(0,0,0,0.7); color: #fff; border: none; border-radius: 50%; width: 36px; height: 36px; cursor: pointer; font-size: 18px; display: flex; align-items: center; justify-content: center;">&#8592;</button>
+                <div id="slider-article" style="display: flex; gap: 15px; overflow-x: auto; scroll-behavior: smooth; width: 100%; padding: 5px 0; scrollbar-width: none;">
+                  ${[
+                    "cQRufw5mP_I", "koD0ZTkg_hA", "-p5r_2oXluE", "lx7wGDNjQjM", "z_db6YLPA18", "eFp3zzSFTcg",
+                    "GHfmjGnFQy4", "LG4VA1XH6Dg", "NsOQMRFb_w8", "KUg5vKrJQlw", "Z0znUPwhKfE", "sbJeGPmqyrk",
+                    "rDMj6h4Pwlk", "lhy456D4Z40", "l8T3wMMGl9Q", "AnycEnTfX4A", "wX4MvAZISE0", "h4o6ZnnsYWo",
+                    "MKPsTYhSJug", "FGhetvSkX5U", "qejv2-4Xqwc", "42-bXIPD31I", "cogTsEs8K7E", "3jL5N-PQPho",
+                    "L4lbD00L-_0", "h2gt1HD9utE", "KxutngZA_0Q", "AmGqnZXe7p8", "-Zva9himJf8", "afQcrd_VGwk",
+                    "-w9tehv60vY", "CZ_Vd1e9Ei0", "Pce02ol_tbQ", "mtml-Et1uec", "K0eAF-hlPuo", "WowYXubbMtA",
+                    "wOOaKOwpO4o", "r-J_NXz301M", "_sGjf7GJjg8", "USTK72RWMAQ", "f-TDSwcsogM", "eo-LhjINVt0",
+                    "y9hRbtiPLng", "33JjFWKUaQY", "zuUQ4Z7Ct_U", "fO6fOBACI38"
+                  ].map(id => `
+                    <div style="flex: 0 0 calc(33.333% - 10px); min-width: 250px; position: relative; padding-top: 18.75%; overflow: hidden; border-radius: 4px; background-color: #000;">
+                      <iframe src="https://www.youtube.com/embed/${id}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+                    </div>
+                  `).join('')}
+                </div>
+                <button onclick="document.getElementById('slider-article').scrollBy({left: 600, behavior: 'smooth'})" style="position: absolute; right: -15px; z-index: 10; background: rgba(0,0,0,0.7); color: #fff; border: none; border-radius: 50%; width: 36px; height: 36px; cursor: pointer; font-size: 18px; display: flex; align-items: center; justify-content: center;">&#8594;</button>
+              </div>
+            </div>
+
+            <!-- Bloque 2: Interviews & Expert Insights -->
+            <div>
+              <h4 style="font-family: Google Sans, sans-serif; font-size: 18px; font-weight: 700; margin-bottom: 15px; color: #000;">Interviews & Expert Insights</h4>
+              <div style="position: relative; width: 100%; display: flex; align-items: center;">
+                <button onclick="document.getElementById('slider-interviews').scrollBy({left: -600, behavior: 'smooth'})" style="position: absolute; left: -15px; z-index: 10; background: rgba(0,0,0,0.7); color: #fff; border: none; border-radius: 50%; width: 36px; height: 36px; cursor: pointer; font-size: 18px; display: flex; align-items: center; justify-content: center;">&#8592;</button>
+                <div id="slider-interviews" style="display: flex; gap: 15px; overflow-x: auto; scroll-behavior: smooth; width: 100%; padding: 5px 0; scrollbar-width: none;">
+                  ${[
+                    "iSywkYaPlLU", "1EXNorJFwrw", "YRBSJyLF5YA", "oyP4odWkCqQ", "-JpxmBGP7IE", "_FhXRepsieA",
+                    "a6yKkOmFq24", "6_7En_COw-o", "lNgtJLepXbg", "8fc3dDvUJ_k", "CVNUVpW9IbA"
+                  ].map(id => `
+                    <div style="flex: 0 0 calc(33.333% - 10px); min-width: 250px; position: relative; padding-top: 18.75%; overflow: hidden; border-radius: 4px; background-color: #000;">
+                      <iframe src="https://www.youtube.com/embed/${id}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+                    </div>
+                  `).join('')}
+                </div>
+                <button onclick="document.getElementById('slider-interviews').scrollBy({left: 600, behavior: 'smooth'})" style="position: absolute; right: -15px; z-index: 10; background: rgba(0,0,0,0.7); color: #fff; border: none; border-radius: 50%; width: 36px; height: 36px; cursor: pointer; font-size: 18px; display: flex; align-items: center; justify-content: center;">&#8594;</button>
+              </div>
+            </div>
+          </div>
+        `
+      }
+    ]
+  },
+  {
+    id: "com-adeahealth",
+    categoria: "comercial",
+    portadaImg: "img/portadas/portada-adeahealth",
+    publicaciones: [
+      {
+        idPub: "adeahealth-p1",
+        año: "2025-2026",
+        titulo: "AdeaHealth",
+        descripcionES: "<p>En AdeaHealth (una startup centrada en el bienestar que busca modernizar la atención médica preventiva mediante la educación y soluciones digitales), trabajo como Diseñador Multimedia, produciendo una amplia variedad de contenido audiovisual:</p><ul><li>Producción integral de contenido para redes sociales: estrategia mensual, redacción, diseño gráfico y edición de video.</li><li>Diseño de identidad visual, diseño de presentaciones, branding, logotipos y packaging.</li><li>Diseño UX/UI en Figma y Canva, incluyendo prototipado de sitios web y aplicaciones.</li><li>Revisión y adaptación de recursos para diferentes formatos, asegurando la coherencia entre los entregables y las directrices de marca.</li><li>Uso de herramientas con IA para la creación de contenido visual, la ideación y la optimización de la producción.</li></ul>",
+        descripcionEN: "<p>At AdeaHealth (a wellness-focused startup aiming to modernize preventive healthcare through education and digital solutions) I work as a Multimedia Designer producing a wide range of audiovisual content:</p><ul><li>End-to-end social media content production: monthly strategy, copywriting, graphic design and video editing.</li><li>Visual identity design, presentation design, branding, logos and packaging.</li><li>UX/UI design in Figma and Canva with website and app prototyping.</li><li>Reviewing and adapting assets for different formats, ensuring consistency across deliverables and brand guidelines.</li><li>Use of AI-assisted tools for visual content creation, ideation and production optimisation.</li></ul>",
+        mediaHTML: ""
+      }
+    ]
+  },
+  {
     id: "com-bagu-hoteles",
     categoria: "comercial",
     portadaImg: "img/portadas/portada-bagu.jpg",
@@ -17,47 +93,47 @@ const listaProyectos = [
           <div style="display: flex; flex-direction: column; gap: 40px; width: 100%;">
             <!-- Grilla de Imágenes (6 por línea) -->
             <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; width: 100%;">
-              <img data-lightbox="true" src="bagu-01.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-02.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-03.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-04.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-05.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-06.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-07.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-08.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-09.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-10.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-11.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-12.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-13.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-14.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-15.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-16.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-17.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-18.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-19.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-20.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-21.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-22.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-23.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-24.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-25.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-26.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-27.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-28.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-29.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-30.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-31.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-32.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-33.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-34.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-35.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-36.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-37.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-38.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-39.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-40.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="bagu-41.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-01.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-02.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-03.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-04.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-05.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-06.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-07.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-08.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-09.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-10.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-11.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-12.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-13.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-14.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-15.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-16.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-17.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-18.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-19.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-20.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-21.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-22.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-23.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-24.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-25.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-26.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-27.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-28.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-29.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-30.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-31.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-32.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-33.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-34.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-35.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-36.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-37.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-38.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-39.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-40.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/bagu-41.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
             </div>
             <!-- Videos Dailymotion (3 por línea) -->
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
@@ -102,61 +178,61 @@ const listaProyectos = [
           <div style="display: flex; flex-direction: column; gap: 40px; width: 100%;">
             <!-- Grilla de Imágenes (6 por línea) -->
             <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; width: 100%;">
-              <img data-lightbox="true" src="ginezen-01.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-02.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-03.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-04.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-05.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-06.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-07.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-08.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-09.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-10.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-11.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-12.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-13.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-14.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-15.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-16.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-17.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-18.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-19.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-20.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-21.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-22.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-23.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-24.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-25.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-26.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-27.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-28.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-29.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-30.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-31.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-32.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-33.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-34.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-35.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-36.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-37.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-38.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-39.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-40.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-41.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-42.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-43.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-44.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-45.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-46.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-47.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-48.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-49.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-50.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-51.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-52.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-53.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-54.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-              <img data-lightbox="true" src="ginezen-55.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-01.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-02.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-03.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-04.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-05.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-06.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-07.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-08.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-09.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-10.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-11.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-12.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-13.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-14.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-15.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-16.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-17.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-18.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-19.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-20.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-21.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-22.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-23.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-24.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-25.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-26.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-27.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-28.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-29.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-30.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-31.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-32.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-33.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-34.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-35.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-36.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-37.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-38.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-39.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-40.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-41.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-42.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-43.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-44.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-45.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-46.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-47.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-48.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-49.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-50.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-51.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-52.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-53.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-54.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/ginezen-55.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
             </div>
             <!-- Videos Dailymotion Ginezen (3 por línea) -->
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
@@ -224,7 +300,7 @@ const listaProyectos = [
         titulo: "Moyo",
         descripcionES: `
           <p>Proyecto de animación 2d que mezcla técnicas de dibujo en papel con dibujo digital.</p>
-          <div style="font-family: Google Sans, sans-serif; font-size: 15px; font-weight: 300; color: #000; margin-top: 25px;">Proceso de construcción:</div>
+          <div style="font-family: Google Sans, sans-serif; font-size: 15px; font-weight: 400; color: #000; margin-top: 25px;">Proceso de construcción:</div>
         `,
         descripcionEN: `
           <p>2D animation project blending paper-based drawing techniques with digital drawing.</p>
@@ -473,14 +549,22 @@ const listaProyectos = [
         descripcionES: "<p><b>Diseño gráfico</b> para redes sociales de Lúcuma, medio latinoamericano de crítica musical. Desarrollo de portadas, carruseles de Instagram y piezas promocionales para la difusión de reseñas y artículos, adaptando cada propuesta visual a la identidad editorial del medio y al contenido de cada publicación.</p>",
         descripcionEN: "<p><b>Graphic design</b> for Lúcuma, a Latin American music criticism platform. Creation of cover images, Instagram carousels, and promotional graphics to support the publication of reviews and editorial content, adapting each visual piece to the platform's editorial identity and the tone of every article.</p>",
         mediaHTML: `
-          <div style="display: flex; flex-direction: column; gap: 20px; width: 100%;">
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 100%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.instagram.com/p/DZGWi2LFTRw/embed" frameborder="0" scrolling="no" allowtransparency="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 100%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.instagram.com/p/DXsPvFZAJ4x/embed" frameborder="0" scrolling="no" allowtransparency="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe></div>
+          <div style="display: flex; flex-direction: column; gap: 25px; width: 100%;">
+              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; width: 100%;">
+                  <div style="width: 100%; height: 500px; overflow: hidden; border-radius: 4px; background-color: #fff;">
+                      <iframe src="https://www.instagram.com/p/DZGWi2LFTRw/embed" frameborder="0" scrolling="no" allowtransparency="true" style="width: 100%; height: 100%; border: 0; min-height: 500px;"></iframe>
+                  </div>
+                  <div style="width: 100%; height: 500px; overflow: hidden; border-radius: 4px; background-color: #fff;">
+                      <iframe src="https://www.instagram.com/p/DXsPvFZAJ4x/embed" frameborder="0" scrolling="no" allowtransparency="true" style="width: 100%; height: 100%; border: 0; min-height: 500px;"></iframe>
+                  </div>
               </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 100%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.instagram.com/p/DWFMgTmjusW/embed" frameborder="0" scrolling="no" allowtransparency="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 100%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.instagram.com/p/DbUCdBAgO6D/embed" frameborder="0" scrolling="no" allowtransparency="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe></div>
+              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; width: 100%;">
+                  <div style="width: 100%; height: 500px; overflow: hidden; border-radius: 4px; background-color: #fff;">
+                      <iframe src="https://www.instagram.com/p/DWFMgTmjusW/embed" frameborder="0" scrolling="no" allowtransparency="true" style="width: 100%; height: 100%; border: 0; min-height: 500px;"></iframe>
+                  </div>
+                  <div style="width: 100%; height: 500px; overflow: hidden; border-radius: 4px; background-color: #fff;">
+                      <iframe src="https://www.instagram.com/p/DbUCdBAgO6D/embed" frameborder="0" scrolling="no" allowtransparency="true" style="width: 100%; height: 100%; border: 0; min-height: 500px;"></iframe>
+                  </div>
               </div>
           </div>
         `
@@ -534,81 +618,81 @@ const listaProyectos = [
             
             <!-- BLOQUE 1: Ooodisea -->
             <div>
-              <div class="idiomas-columnas-container" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px; width: 100%; margin-bottom: 20px;">
-                <div><p style="margin: 0 0 16px 0; font-size: 15px; line-height: 1.6; color: #000; font-weight: 300;">14/01/2023<br>Ooodisea en W Morris, Villa Crespo, CABA.</p></div>
-                <div><p style="margin: 0 0 16px 0; font-size: 15px; line-height: 1.6; color: #777; font-weight: 300;">14/01/2023<br>Ooodisea at W Morris, Villa Crespo, CABA.</p></div>
+              <div style="display: flex; flex-direction: column; gap: 8px; width: 100%; margin-bottom: 20px;">
+                <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #000; font-weight: 400;">14/01/2023<br>Ooodisea en W Morris, Villa Crespo, CABA.</p>
+                <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #777; font-weight: 300;">14/01/2023<br>Ooodisea at W Morris, Villa Crespo, CABA.</p>
               </div>
               <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; width: 100%;">
-                <img data-lightbox="true" src="concert-001.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-002.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-003.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-004.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-005.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-006.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-007.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-008.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-009.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-010.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-001.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-002.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-003.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-004.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-005.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-006.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-007.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-008.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-009.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-010.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
               </div>
             </div>
             <!-- BLOQUE 2: Kill Flora -->
             <div>
-              <div class="idiomas-columnas-container" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px; width: 100%; margin-bottom: 20px;">
-                <div><p style="margin: 0 0 16px 0; font-size: 15px; line-height: 1.6; color: #000; font-weight: 300;">21/04/2023<br>Kill Flora en Bernal, Quilmes.</p></div>
-                <div><p style="margin: 0 0 16px 0; font-size: 15px; line-height: 1.6; color: #777; font-weight: 300;">21/04/2023<br>Kill Flora at Bernal, Quilmes.</p></div>
+              <div style="display: flex; flex-direction: column; gap: 8px; width: 100%; margin-bottom: 20px;">
+                <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #000; font-weight: 400;">21/04/2023<br>Kill Flora en Bernal, Quilmes.</p>
+                <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #777; font-weight: 300;">21/04/2023<br>Kill Flora at Bernal, Quilmes.</p>
               </div>
               <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; width: 100%;">
-                <img data-lightbox="true" src="concert-011.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-012.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-013.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-014.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-015.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-016.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-017.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-018.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-019.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-020.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-021.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-011.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-012.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-013.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-014.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-015.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-016.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-017.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-018.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-019.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-020.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-021.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
               </div>
             </div>
             <!-- BLOQUE 3: Nenagenix -->
             <div>
-              <div class="idiomas-columnas-container" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px; width: 100%; margin-bottom: 20px;">
-                <div><p style="margin: 0 0 16px 0; font-size: 15px; line-height: 1.6; color: #000; font-weight: 300;">16/12/2022<br>Nenagenix en Beatflow, Palermo, CABA.</p></div>
-                <div><p style="margin: 0 0 16px 0; font-size: 15px; line-height: 1.6; color: #777; font-weight: 300;">16/12/2022<br>Nenagenix at Beatflow, Palermo, CABA.</p></div>
+              <div style="display: flex; flex-direction: column; gap: 8px; width: 100%; margin-bottom: 20px;">
+                <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #000; font-weight: 400;">16/12/2022<br>Nenagenix en Beatflow, Palermo, CABA.</p>
+                <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #777; font-weight: 300;">16/12/2022<br>Nenagenix at Beatflow, Palermo, CABA.</p>
               </div>
               <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; width: 100%;">
-                <img data-lightbox="true" src="concert-022.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-023.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-024.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-025.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-026.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-027.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-028.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-029.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-030.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-031.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-032.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-022.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-023.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-024.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-025.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-026.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-027.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-028.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-029.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-030.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-031.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-032.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
               </div>
             </div>
             <!-- BLOQUE 4: El Club Audiovisual -->
             <div>
-              <div class="idiomas-columnas-container" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px; width: 100%; margin-bottom: 20px;">
-                <div><p style="margin: 0 0 16px 0; font-size: 15px; line-height: 1.6; color: #000; font-weight: 300;">16/12/2022<br>El Club Audiovisual en Beatflow, Palermo, CABA.</p></div>
-                <div><p style="margin: 0 0 16px 0; font-size: 15px; line-height: 1.6; color: #777; font-weight: 300;">16/12/2022<br>El Club Audiovisual at Beatflow, Palermo, CABA.</p></div>
+              <div style="display: flex; flex-direction: column; gap: 8px; width: 100%; margin-bottom: 20px;">
+                <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #000; font-weight: 400;">16/12/2022<br>El Club Audiovisual en Beatflow, Palermo, CABA.</p>
+                <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #777; font-weight: 300;">16/12/2022<br>El Club Audiovisual at Beatflow, Palermo, CABA.</p>
               </div>
               <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; width: 100%;">
-                <img data-lightbox="true" src="concert-033.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-034.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-035.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-036.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-037.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-038.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-039.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-040.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-041.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-042.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="concert-043.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-033.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-034.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-035.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-036.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-037.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-038.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-039.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-040.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-041.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-042.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="portfolio/img/proyectos-internos/concert-043.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
               </div>
             </div>
           </div>
@@ -617,10 +701,11 @@ const listaProyectos = [
     ]
   }
 ];
+
 const textoBio = `
-    <div class="bio-content-view" style="font-family: Google Sans, sans-serif; display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px; width: 100%;">
-        <div class="bio-es" style="font-weight: 300; font-size: 15px; line-height: 1.6; color: #000;">
-            <p style="margin-bottom: 16px;"><b style="font-weight: 500;">Wanda Acevedo</b> es Diseñadora Audiovisual especializada en edición de video, diseño gráfico y producción de contenido digital para diferentes marcas, proyectos y empresas.</p>
+    <div class="bio-content-view" style="font-family: Google Sans, sans-serif; display: flex; flex-direction: column; gap: 24px; width: 100%;">
+        <div class="bio-es" style="font-weight: 400; font-size: 15px; line-height: 1.6; color: #000;">
+            <p style="margin-bottom: 16px;"><b style="font-weight: 600;">Wanda Acevedo</b> es Diseñadora Audiovisual especializada en edición de video, diseño gráfico y producción de contenido digital para diferentes marcas, proyectos y empresas.</p>
             <p style="margin-bottom: 16px;">Especializada en la Universidad de Buenos Aires (UBA) y con un fuerte enfoque técnico, investiga narrativas contemporáneas y las tecnologías creativas emergentes.</p>
         </div>
         <div class="bio-en" style="font-weight: 300; font-size: 15px; line-height: 1.6; color: #777;">
@@ -629,21 +714,25 @@ const textoBio = `
         </div>
     </div>
 `;
+
 let categoriaActual = 'todos';
 let imagenesLightboxActuales = [];
 let indiceLightboxActual = 0;
+
 function irAHome() {
     const filtrosComerciales = document.getElementById('filtros-comerciales');
     if (filtrosComerciales) filtrosComerciales.classList.add('hidden');
     document.getElementById('back-button-container').classList.add('hidden');
     document.getElementById('dynamic-content').innerHTML = '';
 }
+
 function mostrarInfo() {
     const filtrosComerciales = document.getElementById('filtros-comerciales');
     if (filtrosComerciales) filtrosComerciales.classList.add('hidden');
     document.getElementById('back-button-container').classList.add('hidden');
     document.getElementById('dynamic-content').innerHTML = textoBio;
 }
+
 function renderizarGrillaProyectos(proyectosAVisualizar) {
     const contenedor = document.getElementById('dynamic-content');
     contenedor.innerHTML = '';
@@ -664,7 +753,7 @@ function renderizarGrillaProyectos(proyectosAVisualizar) {
             <img class="proyecto-tarjeta-media" src="${proy.portadaImg}" alt="${primeraPub.titulo}" style="width: 100%;">
             <div class="pub-ano" style="font-family: Google Sans, sans-serif; font-size: 14px; margin-top: 10px;">${primeraPub.año}</div>
             <h3 style="font-family: Google Sans, sans-serif; font-size: 17px; margin-top: 4px; margin-bottom: 8px;">${primeraPub.titulo}</h3>
-            <div class="line-clamp-preview" style="font-family: Google Sans, sans-serif; font-weight: 300; font-size: 14px;">
+            <div class="line-clamp-preview" style="font-family: Google Sans, sans-serif; font-weight: 400; font-size: 14px;">
                 ${previewTexto} <span class="mas-link" style="color: #76C4AA;">[+]</span>
             </div>
         `;
@@ -672,6 +761,7 @@ function renderizarGrillaProyectos(proyectosAVisualizar) {
     });
     contenedor.appendChild(divGrilla);
 }
+
 function verProyecto(idProyecto) {
     const proy = listaProyectos.find(p => p.id === idProyecto);
     if (!proy) return;
@@ -703,9 +793,9 @@ function verProyecto(idProyecto) {
         } else if (mediaRenderizado && mediaRenderizado.includes('<img') && !mediaRenderizado.includes('display: grid')) {
             mediaRenderizado = mediaRenderizado.replaceAll('<img', '<img data-lightbox="true" style="cursor:pointer; width: 100%; height: auto; border-radius: 4px;"');
         }
-        let descES = pub.descripcionES.replaceAll('<p>', '<p style="margin: 0 0 16px 0; font-size: 15px; line-height: 1.6; color: #000; font-weight: 300;">');
-        descES = descES.replaceAll('<b>', '<b style="font-weight: 500; color: #000;">');
-        descES = descES.replaceAll('<strong>', '<strong style="font-weight: 500; color: #000;">');
+        let descES = pub.descripcionES.replaceAll('<p>', '<p style="margin: 0 0 16px 0; font-size: 15px; line-height: 1.6; color: #000; font-weight: 400;">');
+        descES = descES.replaceAll('<b>', '<b style="font-weight: 600; color: #000;">');
+        descES = descES.replaceAll('<strong>', '<strong style="font-weight: 600; color: #000;">');
         
         let descEN = pub.descripcionEN.replaceAll('<p>', '<p style="margin: 0 0 16px 0; font-size: 15px; line-height: 1.6; color: #777; font-weight: 300;">');
         descEN = descEN.replaceAll('<b>', '<b style="font-weight: 500; color: #555;">');
@@ -718,7 +808,7 @@ function verProyecto(idProyecto) {
                 <div class="pub-titulo-interno" style="font-size: 32px; font-weight: 700; color: #000; margin-bottom: 25px; line-height: 1.2;">${pub.titulo}</div>
                 
                 ${tieneTexto ? `
-                <div class="idiomas-columnas-container" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px; width: 100%; margin-bottom: 35px;">
+                <div class="idiomas-filas-container" style="display: flex; flex-direction: column; gap: 15px; width: 100%; margin-bottom: 35px;">
                     <div class="descripcion-bloque-es">${descES}</div>
                     <div class="descripcion-bloque-en">${descEN}</div>
                 </div>
@@ -734,10 +824,12 @@ function verProyecto(idProyecto) {
     contenedor.appendChild(divProyecto);
     window.scrollTo(0,0);
 }
+
 function volverALaGrilla() {
     document.getElementById('back-button-container').classList.add('hidden');
     filtrarCategoria(categoriaActual);
 }
+
 function filtrarCategoria(cat) {
     categoriaActual = cat;
     document.getElementById('back-button-container').classList.add('hidden');
@@ -748,6 +840,7 @@ function filtrarCategoria(cat) {
     const filtrados = listaProyectos.filter(p => p.categoria === cat);
     renderizarGrillaProyectos(filtrados);
 }
+
 document.addEventListener('click', function(event) {
     if (event.target.hasAttribute('data-lightbox') || event.target.closest('[data-lightbox]')) {
         const targetImg = event.target.tagName === 'IMG' ? event.target : event.target.querySelector('img');
@@ -770,6 +863,7 @@ document.addEventListener('click', function(event) {
         }
     }
 });
+
 function actualizarImagenLightbox() {
     const imagenModal = document.getElementById('lightbox-img');
     if (imagenModal && imagenesLightboxActuales.length > 0) {
@@ -787,6 +881,7 @@ function actualizarImagenLightbox() {
         }
     }
 }
+
 function inyectarFlechasNavegacion(modal) {
     if (document.getElementById('lightbox-prev-btn')) return;
     const btnPrev = document.createElement('button');
@@ -808,18 +903,21 @@ function inyectarFlechasNavegacion(modal) {
     modal.appendChild(btnNext);
     actualizarImagenLightbox();
 }
+
 function lightboxAnterior(event) {
     if (event) event.stopPropagation();
     if (imagenesLightboxActuales.length <= 1) return;
     indiceLightboxActual = (indiceLightboxActual - 1 + imagenesLightboxActuales.length) % imagenesLightboxActuales.length;
     actualizarImagenLightbox();
 }
+
 function lightboxSiguiente(event) {
     if (event) event.stopPropagation();
     if (imagenesLightboxActuales.length <= 1) return;
     indiceLightboxActual = (indiceLightboxActual + 1) % imagenesLightboxActuales.length;
     actualizarImagenLightbox();
 }
+
 document.addEventListener('keydown', function(event) {
     const modal = document.getElementById('lightbox-modal');
     if (modal && !modal.classList.contains('hidden')) {
@@ -832,10 +930,12 @@ document.addEventListener('keydown', function(event) {
         }
     }
 });
+
 function cerrarImagen() {
     const modal = document.getElementById('lightbox-modal');
     if (modal) {
         modal.classList.add('hidden');
     }
 }
+
 irAHome();
