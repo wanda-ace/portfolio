@@ -1,6 +1,6 @@
 const listaProyectos = [
   // ----------------------------------------------------
-  // MARCAS / COMERCIAL
+  // MARCAS / COMERCIAL (BRANDS)
   // ----------------------------------------------------
   {
     id: "com-techround-uk",
@@ -66,12 +66,76 @@ const listaProyectos = [
         descripcionES: "<p>En AdeaHealth (una startup centrada en el bienestar que busca modernizar la atención médica preventiva mediante la educación y soluciones digitales), trabajo como Diseñador Multimedia, produciendo una amplia variedad de contenido audiovisual:</p><ul><li><b>Producción de contenido para redes sociales (diseño gráfico, edición de video, motion graphics)</b></li><li>Diseño de identidad visual, diseño de presentaciones, branding, logotipos y packaging.</li><li>Diseño UX/UI en Figma y Canva, incluyendo prototipado de sitios web y aplicaciones.</li><li>Revisión y adaptación de recursos para diferentes formatos, asegurando la coherencia entre los entregables y las directrices de marca.</li><li>Uso de herramientas con IA para la creación de contenido visual, la ideación y la optimización de la producción.</li></ul>",
         descripcionEN: "<p>At AdeaHealth (a wellness-focused startup aiming to modernize preventive healthcare through education and digital solutions) I work as a Multimedia Designer producing a wide range of audiovisual content:</p><ul><li><b>Content production for social media (graphic design, video editing, motion graphics)</b></li><li>Visual identity design, presentation design, branding, logos and packaging.</li><li>UX/UI design in Figma and Canva with website and app prototyping.</li><li>Reviewing and adapting assets for different formats, ensuring consistency across deliverables and brand guidelines.</li><li>Use of AI-assisted tools for visual content creation, ideation and production optimisation.</li></ul>",
         mediaHTML: `
-          <div style="display: flex; flex-direction: column; gap: 20px; width: 100%;">
+          <div style="display: flex; flex-direction: column; gap: 30px; width: 100%;">
+            <!-- Videos Dailymotion (3 por línea, colocados ANTES que las fotos) -->
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
+              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
+                <iframe src="https://www.dailymotion.com/embed/video/k5RVsPE3NTNPYhIorWC" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+              </div>
+              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
+                <iframe src="https://www.dailymotion.com/embed/video/k5qwlcQdxNroK7IorWy" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+              </div>
+              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
+                <iframe src="https://www.dailymotion.com/embed/video/k75YzHBmt63KpxIorWG" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+              </div>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
+              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
+                <iframe src="https://www.dailymotion.com/embed/video/k30Quf8rB3ZMjoIorWu" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+              </div>
+              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
+                <iframe src="https://www.dailymotion.com/embed/video/k1jVE7lHpQBaoFIr40y" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+              </div>
+              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
+                <iframe src="https://www.dailymotion.com/embed/video/k72nNYqW1iR56vIr40G" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+              </div>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
+              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
+                <iframe src="https://www.dailymotion.com/embed/video/k2OdyEpojnVeQCIosx8" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+              </div>
+              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
+                <iframe src="https://www.dailymotion.com/embed/video/kQLRbnIlT2MGOzIr40q" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+              </div>
+              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
+                <iframe src="https://www.dailymotion.com/embed/video/k6TtuAHRz655CwIr40K" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+              </div>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
+              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
+                <iframe src="https://www.dailymotion.com/embed/video/k76VOIMSvltDqIIr40u" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+              </div>
+              <div style="width: 100%;"></div>
+              <div style="width: 100%;"></div>
+            </div>
+
+            <!-- Grilla de Fotos -->
             <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; width: 100%;">
               ${Array.from({ length: 24 }, (_, i) => i + 1).map(num => `
                 <img data-lightbox="true" src="img/proyectos-internos/adeahealth-socialmedia-${num}.png" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
               `).join('')}
             </div>
+          </div>
+        `
+      }
+    ]
+  },
+  {
+    id: "com-ciudadania-croata",
+    categoria: "comercial",
+    portadaImg: "img/portadas/portada-ciudadania-croata.jpg",
+    publicaciones: [
+      {
+        idPub: "ciudadania-croata-p1",
+        año: "2025",
+        titulo: "Ciudadanía Croata",
+        descripcionES: "<p>Trabajo realizado para La Cosecha, una agencia de marketing y comunicación. Mis responsabilidades incluyeron diseño gráfico, edición de video y motion graphics para piezas destinadas a Instagram y TikTok, adaptando el contenido a la identidad visual de la marca y a los formatos propios de cada plataforma.</p>",
+        descripcionEN: "<p>Project completed for La Cosecha, a marketing and communications agency. My responsibilities included graphic design, video editing, and motion graphics for Instagram and TikTok content, adapting each piece to the brand's visual identity and the requirements of each platform.</p>",
+        mediaHTML: `
+          <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; width: 100%;">
+            ${Array.from({ length: 24 }, (_, i) => String(i + 1).padStart(3, '0')).map(num => `
+              <img data-lightbox="true" src="img/proyectos-internos/ciudadania-croata-${num}.png" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+            `).join('')}
           </div>
         `
       }
@@ -86,11 +150,10 @@ const listaProyectos = [
         idPub: "free-flakka-p1",
         año: "2024",
         titulo: "Flakkaboem Sessions",
-        descripcionES: "<p>Postproducción de material audiovisual para sesiones de música en vivo, incluyendo <b> edición de video</b>, <b>corrección de color</b>, <b> sincronización multicámara</b>  y selección de fragmentos para la creación de contenido en formato vertical destinado a Instagram Reels y YouTube Shorts.</p>",
-        descripcionEN: "<p>Post-production of audiovisual content for live music sessions, including <b> video editing</b> , <b>color correction</b>, <b> multicamera synchronization</b>, and the selection of highlights for short-form vertical content on Instagram Reels and YouTube Shorts.</p>",
+        descripcionES: "<p>Postproducción de material audiovisual para sesiones de música en vivo, incluyendo <b>edición de video</b>, <b>corrección de color</b>, <b>sincronización multicámara</b> y selección de fragmentos para la creación de contenido en formato vertical destinado a Instagram Reels y YouTube Shorts.</p>",
+        descripcionEN: "<p>Post-production of audiovisual content for live music sessions, including <b>video editing</b>, <b>color correction</b>, <b>multicamera synchronization</b>, and the selection of highlights for short-form vertical content on Instagram Reels and YouTube Shorts.</p>",
         mediaHTML: `
           <div style="display: flex; flex-direction: column; gap: 35px; width: 100%;">
-              <!-- Videos de YouTube uno abajo del otro -->
               <div style="display: flex; flex-direction: column; gap: 20px; width: 100%;">
                   <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/S5clh2xefZw?playlist=S5clh2xefZw&loop=1" title="Flakkaboem YT 1" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
                   <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/KIdcWdvYjyI?playlist=KIdcWdvYjyI&loop=1" title="Flakkaboem YT 2" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
@@ -100,7 +163,6 @@ const listaProyectos = [
               </div>
               
               <div style="font-family: Google Sans, sans-serif; font-size: 16px; font-weight: 500; color: #000; border-top: 1px solid #eee; padding-top: 25px; margin-top: 10px;">Contenido Shorts / Reels:</div>
-              <!-- Instagram en líneas de máximo 3 -->
               <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
                   <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.instagram.com/reel/C--qANCoZuu/embed" title="Flakkaboem IG 1" frameborder="0" scrolling="no" allowtransparency="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe></div>
                   <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.instagram.com/reel/C9m0jSiofec/embed" title="Flakkaboem IG 2" frameborder="0" scrolling="no" allowtransparency="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe></div>
@@ -129,13 +191,11 @@ const listaProyectos = [
         descripcionEN: "<p>Project completed for La Cosecha, a marketing and communications agency. The work involved creating social media content for Hoteles Bagu, an Argentine hotel chain.</p><p>My responsibilities included <b>graphic design</b>, <b>video editing</b>, and <b>motion graphics</b> for Instagram and TikTok content, adapting each piece to the brand's visual identity and the requirements of each platform.</p>",
         mediaHTML: `
           <div style="display: flex; flex-direction: column; gap: 40px; width: 100%;">
-            <!-- Grilla de Imágenes (6 por línea) -->
             <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; width: 100%;">
               ${Array.from({ length: 41 }, (_, i) => String(i + 1).padStart(2, '0')).map(num => `
                 <img data-lightbox="true" src="img/proyectos-internos/bagu-${num}.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
               `).join('')}
             </div>
-            <!-- Videos Dailymotion (3 por línea) -->
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
               <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
                 <iframe src="https://www.dailymotion.com/embed/video/kAmVwc6UTMacT4Ih9Ke" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
@@ -172,17 +232,15 @@ const listaProyectos = [
         idPub: "ginezen-p1",
         año: "2025",
         titulo: "Ginezen",
-        descripcionES: "<p>Trabajo realizado para La Cosecha, una agencia de marketing y comunicación. El proyecto consistió en la creación de contenido para redes sociales de Ginezen, un consultorio médico enfocado en ginecología.</p><p>Mis responsabilidades incluyeron <b>diseño gráfico</b>, <b>edición de video</b> y <b>motion graphics</b> para piezas destinadas a Instagram y TikTok. También ayudé en la construccion de la indentidad de la marca, colaborando en el armado del brand book.</p>",
+        descripcionES: "<p>Trabajo realizado para La Cosecha, una agencia de marketing y comunicación. El proyecto consistió en la creación de contenido para redes sociales de Ginezen, un consultorio médico enfocado en ginecología.</p><p>Mis responsabilidades incluyeron <b>diseño gráfico</b>, <b>edición de video</b> y <b>motion graphics</b> para piezas destinadas a Instagram y TikTok. También ayudé en la construcción de la identidad de la marca, colaborando en el armado del brand book.</p>",
         descripcionEN: "<p>Project completed for La Cosecha, a marketing and communications agency. The project involved creating social media content for Ginezen, a gynecology clinic.</p><p>My responsibilities included <b>graphic design</b>, <b>video editing</b>, and <b>motion graphics</b> for Instagram and TikTok content. I also contributed to the development of the brand's visual identity by collaborating on the creation of its brand book.</p>",
         mediaHTML: `
           <div style="display: flex; flex-direction: column; gap: 40px; width: 100%;">
-            <!-- Grilla de Imágenes (6 por línea) -->
             <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; width: 100%;">
               ${Array.from({ length: 55 }, (_, i) => String(i + 1).padStart(2, '0')).map(num => `
                 <img data-lightbox="true" src="img/proyectos-internos/ginezen-${num}.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
               `).join('')}
             </div>
-            <!-- Videos Dailymotion Ginezen (3 por línea) -->
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
               <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
                 <iframe src="https://www.dailymotion.com/embed/video/k7bJVW9dqsGJJJImDL4" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
@@ -248,11 +306,11 @@ const listaProyectos = [
         titulo: "Moyo",
         descripcionES: `
           <p>Proyecto de animación 2d que mezcla técnicas de dibujo en papel con dibujo digital.</p>
-          <div style="font-family: Google Sans, sans-serif; font-size: 15px; font-weight: 400; color: #000; margin-top: 25px;">Proceso de construcción:</div>
+          <div style="font-family: Google Sans, sans-serif; font-size: 15px; font-weight: 300; color: #000; margin-top: 25px;">Proceso de construcción:</div>
         `,
         descripcionEN: `
           <p>2D animation project blending paper-based drawing techniques with digital drawing.</p>
-          <div style="font-family: Google Sans, sans-serif; font-size: 15px; font-weight: 300; color: #777; margin-top: 25px;">Construction process:</div>
+          <div style="font-family: Google Sans, sans-serif; font-size: 15px; font-weight: 300; color: #888; margin-top: 25px;">Construction process:</div>
         `,
         mediaHTML: `
           <div style="display: flex; flex-direction: column; gap: 20px; width: 100%;">
@@ -431,7 +489,7 @@ const listaProyectos = [
         titulo: "documental del azar",
         descripcionES: `
           <p>"Documental del azar" es un video experimental realizado como proyecto final de la materia Proyecto Audiovisual 1 (Cátedra Campos/Trilnick) de la carrera de Diseño de Imagen y Sonido de la Universidad de Buenos Aires (UBA).</p>
-          <p>El proyecto explora el cruce entre el registro documental y la intervención plástica, combinando imágenes documentales con manipulaciones realizadas directamente sobre los fotogramas para cuestionar los límites entre la representation y la experimentación visual.</p>
+          <p>El proyecto explora el cruce entre el registro documental y la intervención plástica, combinando imágenes documentales con manipulaciones realizadas directamente sobre los fotogramas para cuestionar los límites entre la representación y la experimentación visual.</p>
           <p>Realizado en colaboración con Javiera Ceniceros y Clara Bunge.</p>
         `,
         descripcionEN: `
@@ -447,42 +505,64 @@ const listaProyectos = [
   // FREELANCE
   // ----------------------------------------------------
   {
-    id: "free-lucuma",
+    id: "free-video-editing",
+    categoria: "freelance",
+    portadaImg: "img/portadas/portada-flakkaboem.jpg",
+    publicaciones: [
+      {
+        idPub: "free-ve-p1",
+        año: "2024 - 2026",
+        titulo: "Video Editing",
+        descripcionES: "<p>Edición y montaje de video para diversos proyectos independientes, eventos y redes sociales.</p>",
+        descripcionEN: "<p>Video editing and assembly for various independent projects, events, and social media platforms.</p>",
+        mediaHTML: ""
+      }
+    ]
+  },
+  {
+    id: "free-graphic-design",
     categoria: "freelance",
     portadaImg: "img/portadas/portada-lucuma.jpg",
     publicaciones: [
       {
-        idPub: "free-lucuma-p1",
-        año: "2026",
-        titulo: "Lúcuma",
-        descripcionES: "<p><b>Diseño gráfico</b> para redes sociales de Lúcuma, medio latinoamericano de crítica musical. Desarrollo de portadas, carruseles de Instagram y piezas promocionales para la difusión de reseñas y artículos, adaptando cada propuesta visual a la identidad editorial del medio y al contenido de cada publicación.</p>",
-        descripcionEN: "<p><b>Graphic design</b> for Lúcuma, a Latin American music criticism platform. Creation of cover images, Instagram carousels, and promotional graphics to support the publication of reviews and editorial content, adapting each visual piece to the platform's editorial identity and the tone of every article.</p>",
-        mediaHTML: `
-          <div style="display: flex; flex-direction: column; gap: 25px; width: 100%;">
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; width: 100%;">
-                  <div style="width: 100%; border-radius: 4px; background-color: #fff; overflow: hidden;">
-                      <iframe src="https://www.instagram.com/p/DZGWi2LFTRw/embed" frameborder="0" scrolling="no" allowtransparency="true" style="width: 100%; height: 580px; border: 0;"></iframe>
-                  </div>
-                  <div style="width: 100%; border-radius: 4px; background-color: #fff; overflow: hidden;">
-                      <iframe src="https://www.instagram.com/p/DXsPvFZAJ4x/embed" frameborder="0" scrolling="no" allowtransparency="true" style="width: 100%; height: 580px; border: 0;"></iframe>
-                  </div>
-              </div>
-              <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; width: 100%;">
-                  <div style="width: 100%; border-radius: 4px; background-color: #fff; overflow: hidden;">
-                      <iframe src="https://www.instagram.com/p/DWFMgTmjusW/embed" frameborder="0" scrolling="no" allowtransparency="true" style="width: 100%; height: 580px; border: 0;"></iframe>
-                  </div>
-                  <div style="width: 100%; border-radius: 4px; background-color: #fff; overflow: hidden;">
-                      <iframe src="https://www.instagram.com/p/DbUCdBAgO6D/embed" frameborder="0" scrolling="no" allowtransparency="true" style="width: 100%; height: 580px; border: 0;"></iframe>
-                  </div>
-              </div>
-          </div>
-        `
+        idPub: "free-gd-p1",
+        año: "2024 - 2026",
+        titulo: "Graphic Design",
+        descripcionES: "<p>Proyectos de diseño gráfico comercial, piezas de comunicación y branding para clientes independientes.</p>",
+        descripcionEN: "<p>Commercial graphic design projects, communication pieces, and branding for freelance clients.</p>",
+        mediaHTML: ""
       }
     ]
   },
   // ----------------------------------------------------
   // INSTALACIONES
   // ----------------------------------------------------
+  {
+    id: "inst-periferias",
+    categoria: "instalaciones",
+    portadaImg: "portfolio/portadas/portada-periferias.png",
+    publicaciones: [
+      {
+        idPub: "inst-periferias-p1",
+        año: "2023",
+        titulo: "Periferias",
+        descripcionES: "<p>Periferias es una instalación audiovisual que introduce al usuario en un ecosistema situado en las periferias de una ciudad ficticia, donde confluyen naturaleza y basura informacional. El espacio es habitado por diversos seres vivos que nacen de la sobrecarga de datos. Estas nuevas formas de vida buscan adaptarse a las dificultades del presente generando entornos más habitables mediante la hibridación de materialidades tanto naturales como tecnológicas.</p><p>La instalación consta de dos videos interconectados en los que se construye el mundo ficcional mediante la aparición de diferentes escenas de índole observacional donde se desarrollan las particularidades morfológicas de diferentes personajes y entornos.</p><p>El proyecto fue presentado en la muestra MAGMA, en diciembre de 2023, en cheLA.</p>",
+        descripcionEN: "<p>Periferias is an audiovisual installation that immerses the viewer in an ecosystem located on the outskirts of a fictional city, where nature and informational waste converge. The space is inhabited by a variety of life forms born from data overload. These new organisms adapt to the challenges of the present by creating more habitable environments through the hybridization of natural and technological materials.</p><p>The installation consists of two interconnected videos that gradually construct this fictional world through a series of observational scenes, revealing the distinctive morphologies of its inhabitants and the environments they occupy.</p><p>The project was exhibited at MAGMA in December 2023 at the Latin American Experimental Hypermedia Center (cheLA) in Buenos Aires, Argentina.</p>",
+        mediaHTML: `
+          <div style="display: flex; flex-direction: column; gap: 20px; width: 100%;">
+            <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;">
+              <iframe src="https://www.youtube.com/embed/x4zR10vzW4E?playlist=x4zR10vzW4E&loop=1" title="Periferias" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 15px; width: 100%; margin-top: 10px;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/periferias-01.png" style="width: 100%; height: auto; border-radius: 4px; cursor: pointer;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/periferias-02.png" style="width: 100%; height: auto; border-radius: 4px; cursor: pointer;">
+              <img data-lightbox="true" src="portfolio/img/proyectos-internos/periferias-03.png" style="width: 100%; height: auto; border-radius: 4px; cursor: pointer;">
+            </div>
+          </div>
+        `
+      }
+    ]
+  },
   {
     id: "inst-bajo-sur",
     categoria: "instalaciones",
@@ -505,10 +585,42 @@ const listaProyectos = [
   // ----------------------------------------------------
   // DISEÑO GRÁFICO
   // ----------------------------------------------------
-  { id: "dis-1", categoria: "diseno", portadaImg: "https://images.unsplash.com/photo-1600132806370-bf17e65e942f?w=500", publicaciones: [{ idPub: "dis1-p1", año: "2025", titulo: "Branding Residencial", descripcionES: "<p>Desarrollo de identidad de marca premium y sistemas tipográficos limpios orientados al sector de desarrollos inmobiliarios de lujo.</p>", descripcionEN: "<p>Premium brand identity development and clean typographic systems tailored for the luxury real estate development sector.</p>", mediaHTML: "" }] },
-  { id: "dis-2", font_style: "google-sans", categoria: "diseno", portadaImg: "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?w=500", publicaciones: [{ idPub: "dis2-p1", año: "2025", titulo: "UI/UX Camping App", descripcionES: "<p>Prototipado interactivo de alta fidelidad y desarrollo detallado del sistema de componentes responsivos para aplicaciones móviles de turismo aventura.</p>", descripcionEN: "<p>High-fidelity interactive prototyping and detailed development of the responsive component system for adventure tourism mobile applications.</p>", mediaHTML: "" }] },
-  { id: "dis-3", categoria: "diseno", portadaImg: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=500", publicaciones: [{ idPub: "dis3-p1", año: "2025", titulo: "AdeaHealth Interface", descripcionES: "<p>Rediseño de flujos funcionales y optimización de interfaces críticas para sistemas globales de historias clínicas digitales.</p>", descripcionEN: "<p>Redesign of functional flows and optimization of critical interfaces for global digital medical record systems.</p>", mediaHTML: "" }] },
-  { id: "dis-4", categoria: "diseno", portadaImg: "https://images.unsplash.com/photo-1530587191325-3db32d826c18?w=500", publicaciones: [{ idPub: "dis4-p1", año: "2025", titulo: "Packaging La Cosecha", descripcionES: "<p>Diseño estructural de empaques sustentables utilizando troqueles mínimos y una paleta tipográfica restrictiva de alta gama.</p>", descripcionEN: "<p>Structural sustainable packaging design using minimal die-cuts and a restrictive high-end typographic palette.</p>", mediaHTML: "" }] },
+  {
+    id: "dis-lucuma",
+    categoria: "diseno",
+    portadaImg: "img/portadas/portada-lucuma.jpg",
+    publicaciones: [
+      {
+        idPub: "dis-lucuma-p1",
+        año: "2026",
+        titulo: "Lúcuma",
+        descripcionES: "<p><b>Diseño gráfico</b> para redes sociales de Lúcuma, medio latinoamericano de crítica musical. Desarrollo de portadas, carruseles de Instagram y piezas promocionales para la difusión de reseñas y artículos, adaptando cada propuesta visual a la identidad editorial del medio y al contenido de cada publicación.</p>",
+        descripcionEN: "<p><b>Graphic design</b> for Lúcuma, a Latin American music criticism platform. Creation of cover images, Instagram carousels, and promotional graphics to support the publication of reviews and editorial content, adapting each visual piece to the platform's editorial identity and the tone of every article.</p>",
+        mediaHTML: `
+          <div style="display: flex; flex-direction: column; gap: 20px; width: 100%;">
+              <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
+                  <div style="width: 100%; border-radius: 4px; background-color: #fff; overflow: hidden; position: relative; padding-top: 125%;">
+                      <iframe src="https://www.instagram.com/p/DZGWi2LFTRw/embed" frameborder="0" scrolling="no" allowtransparency="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                  </div>
+                  <div style="width: 100%; border-radius: 4px; background-color: #fff; overflow: hidden; position: relative; padding-top: 125%;">
+                      <iframe src="https://www.instagram.com/p/DXsPvFZAJ4x/embed" frameborder="0" scrolling="no" allowtransparency="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                  </div>
+                  <div style="width: 100%; border-radius: 4px; background-color: #fff; overflow: hidden; position: relative; padding-top: 125%;">
+                      <iframe src="https://www.instagram.com/p/DWFMgTmjusW/embed" frameborder="0" scrolling="no" allowtransparency="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                  </div>
+              </div>
+              <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
+                  <div style="width: 100%; border-radius: 4px; background-color: #fff; overflow: hidden; position: relative; padding-top: 125%;">
+                      <iframe src="https://www.instagram.com/p/DbUCdBAgO6D/embed" frameborder="0" scrolling="no" allowtransparency="true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                  </div>
+                  <div style="width: 100%;"></div>
+                  <div style="width: 100%;"></div>
+              </div>
+          </div>
+        `
+      }
+    ]
+  },
   // ----------------------------------------------------
   // FOTOGRAFÍA
   // ----------------------------------------------------
@@ -528,9 +640,9 @@ const listaProyectos = [
             
             <!-- BLOQUE 1: Ooodisea -->
             <div>
-              <div style="display: flex; flex-direction: column; gap: 8px; width: 100%; margin-bottom: 20px;">
-                <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #000; font-weight: 400;">14/01/2023<br>Ooodisea en W Morris, Villa Crespo, CABA.</p>
-                <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #777; font-weight: 300;">14/01/2023<br>Ooodisea at W Morris, Villa Crespo, CABA.</p>
+              <div style="display: flex; flex-direction: column; gap: 4px; width: 100%; margin-bottom: 20px;">
+                <p style="margin: 0; font-size: 15px; line-height: 1.5; color: #000; font-weight: 300;">14/01/2023<br>Ooodisea en W Morris, Villa Crespo, CABA.</p>
+                <p style="margin: 0; font-size: 15px; line-height: 1.5; color: #888; font-weight: 300;">14/01/2023<br>Ooodisea at W Morris, Villa Crespo, CABA.</p>
               </div>
               <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; width: 100%;">
                 <img data-lightbox="true" src="img/proyectos-internos/concert-01.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
@@ -547,9 +659,9 @@ const listaProyectos = [
             </div>
             <!-- BLOQUE 2: Kill Flora -->
             <div>
-              <div style="display: flex; flex-direction: column; gap: 8px; width: 100%; margin-bottom: 20px;">
-                <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #000; font-weight: 400;">21/04/2023<br>Kill Flora en Bernal, Quilmes.</p>
-                <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #777; font-weight: 300;">21/04/2023<br>Kill Flora at Bernal, Quilmes.</p>
+              <div style="display: flex; flex-direction: column; gap: 4px; width: 100%; margin-bottom: 20px;">
+                <p style="margin: 0; font-size: 15px; line-height: 1.5; color: #000; font-weight: 300;">21/04/2023<br>Kill Flora en Bernal, Quilmes.</p>
+                <p style="margin: 0; font-size: 15px; line-height: 1.5; color: #888; font-weight: 300;">21/04/2023<br>Kill Flora at Bernal, Quilmes.</p>
               </div>
               <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; width: 100%;">
                 <img data-lightbox="true" src="img/proyectos-internos/concert-11.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
@@ -567,9 +679,9 @@ const listaProyectos = [
             </div>
             <!-- BLOQUE 3: Nenagenix -->
             <div>
-              <div style="display: flex; flex-direction: column; gap: 8px; width: 100%; margin-bottom: 20px;">
-                <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #000; font-weight: 400;">16/12/2022<br>Nenagenix en Beatflow, Palermo, CABA.</p>
-                <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #777; font-weight: 300;">16/12/2022<br>Nenagenix at Beatflow, Palermo, CABA.</p>
+              <div style="display: flex; flex-direction: column; gap: 4px; width: 100%; margin-bottom: 20px;">
+                <p style="margin: 0; font-size: 15px; line-height: 1.5; color: #000; font-weight: 300;">16/12/2022<br>Nenagenix en Beatflow, Palermo, CABA.</p>
+                <p style="margin: 0; font-size: 15px; line-height: 1.5; color: #888; font-weight: 300;">16/12/2022<br>Nenagenix at Beatflow, Palermo, CABA.</p>
               </div>
               <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; width: 100%;">
                 <img data-lightbox="true" src="img/proyectos-internos/concert-022.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
@@ -587,9 +699,9 @@ const listaProyectos = [
             </div>
             <!-- BLOQUE 4: El Club Audiovisual -->
             <div>
-              <div style="display: flex; flex-direction: column; gap: 8px; width: 100%; margin-bottom: 20px;">
-                <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #000; font-weight: 400;">16/12/2022<br>El Club Audiovisual en Beatflow, Palermo, CABA.</p>
-                <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #777; font-weight: 300;">16/12/2022<br>El Club Audiovisual at Beatflow, Palermo, CABA.</p>
+              <div style="display: flex; flex-direction: column; gap: 4px; width: 100%; margin-bottom: 20px;">
+                <p style="margin: 0; font-size: 15px; line-height: 1.5; color: #000; font-weight: 300;">16/12/2022<br>El Club Audiovisual en Beatflow, Palermo, CABA.</p>
+                <p style="margin: 0; font-size: 15px; line-height: 1.5; color: #888; font-weight: 300;">16/12/2022<br>El Club Audiovisual at Beatflow, Palermo, CABA.</p>
               </div>
               <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; width: 100%;">
                 <img data-lightbox="true" src="img/proyectos-internos/concert-033.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
@@ -613,19 +725,19 @@ const listaProyectos = [
 ];
 
 const textoBio = `
-    <div class="bio-content-view" style="font-family: Google Sans, sans-serif; display: flex; flex-direction: column; gap: 24px; width: 100%;">
-        <div class="bio-es" style="font-weight: 400; font-size: 15px; line-height: 1.6; color: #000;">
-            <p style="margin-bottom: 16px;"><b style="font-weight: 600;">Wanda Acevedo</b> es Diseñadora Audiovisual especializada en edición de video, diseño gráfico y producción de contenido digital para diferentes marcas, proyectos y empresas.</p>
-            <p style="margin-bottom: 16px;">Especializada en la Universidad de Buenos Aires (UBA) y con un fuerte enfoque técnico, investiga narrativas contemporáneas y las tecnologías creativas emergentes.</p>
+    <div class="bio-content-view" style="font-family: Google Sans, sans-serif; display: flex; flex-direction: column; gap: 20px; width: 100%;">
+        <div class="bio-es" style="font-weight: 300; font-size: 15px; line-height: 1.6; color: #000;">
+            <p style="margin-bottom: 12px;"><b style="font-weight: 500;">Wanda Acevedo</b> es Diseñadora Audiovisual especializada en edición de video, diseño gráfico y producción de contenido digital para diferentes marcas, proyectos y empresas.</p>
+            <p style="margin-bottom: 12px;">Especializada en la Universidad de Buenos Aires (UBA) y con un fuerte enfoque técnico, investiga narrativas contemporáneas y las tecnologías creativas emergentes.</p>
         </div>
-        <div class="bio-en" style="font-weight: 300; font-size: 15px; line-height: 1.6; color: #777;">
-            <p style="margin-bottom: 16px;"><b style="font-weight: 500;">Wanda Acevedo</b> is an Audiovisual Designer specializing in video editing, graphic design, and digital content production for various brands, projects, and companies.</p>
-            <p style="margin-bottom: 16px;">Formed at the University of Buenos Aires (UBA) and with a strong technical focus, she researches contemporary narratives and emerging creative technologies.</p>
+        <div class="bio-en" style="font-weight: 300; font-size: 15px; line-height: 1.6; color: #666666;">
+            <p style="margin-bottom: 12px;"><b style="font-weight: 500;">Wanda Acevedo</b> is an Audiovisual Designer specializing in video editing, graphic design, and digital content production for various brands, projects, and companies.</p>
+            <p style="margin-bottom: 12px;">Formed at the University of Buenos Aires (UBA) and with a strong technical focus, she researches contemporary narratives and emerging creative technologies.</p>
         </div>
     </div>
 `;
 
-let categoriaActual = 'todos';
+let categoriaActual = 'none';
 let imagenesLightboxActuales = [];
 let indiceLightboxActual = 0;
 
@@ -633,10 +745,14 @@ function renderizarGrillaProyectos(proyectosAVisualizar) {
     const contenedor = document.getElementById('dynamic-content');
     if (!contenedor) return;
     contenedor.innerHTML = '';
+
+    if (!proyectosAVisualizar || proyectosAVisualizar.length === 0) return;
+
     const divGrilla = document.createElement('div');
     divGrilla.className = 'grid-proyectos';
     divGrilla.style.display = 'grid';
     divGrilla.style.width = '100%';
+
     proyectosAVisualizar.forEach(proy => {
         const primeraPub = proy.publicaciones[0];
         if (!primeraPub) return;
@@ -648,9 +764,9 @@ function renderizarGrillaProyectos(proyectosAVisualizar) {
         let previewTexto = primeraPub.descripcionES.replaceAll('<b>', '<b style="font-weight: 500;">');
         tarjeta.innerHTML = `
             <img class="proyecto-tarjeta-media" src="${proy.portadaImg}" alt="${primeraPub.titulo}" style="width: 100%;">
-            <div class="pub-ano" style="font-family: Google Sans, sans-serif; font-size: 14px; margin-top: 10px;">${primeraPub.año}</div>
-            <h3 style="font-family: Google Sans, sans-serif; font-size: 17px; margin-top: 4px; margin-bottom: 8px;">${primeraPub.titulo}</h3>
-            <div class="line-clamp-preview" style="font-family: Google Sans, sans-serif; font-weight: 400; font-size: 14px;">
+            <div class="pub-ano" style="font-family: Google Sans, sans-serif; font-size: 14px; margin-top: 10px; font-weight: 300;">${primeraPub.año}</div>
+            <h3 style="font-family: Google Sans, sans-serif; font-size: 17px; margin-top: 4px; margin-bottom: 8px; font-weight: 500;">${primeraPub.titulo}</h3>
+            <div class="line-clamp-preview" style="font-family: Google Sans, sans-serif; font-weight: 300; font-size: 14px;">
                 ${previewTexto} <span class="mas-link" style="color: #76C4AA;">[+]</span>
             </div>
         `;
@@ -691,29 +807,29 @@ function verProyecto(idProyecto) {
         } else if (mediaRenderizado && mediaRenderizado.includes('<img') && !mediaRenderizado.includes('display: grid')) {
             mediaRenderizado = mediaRenderizado.replaceAll('<img', '<img data-lightbox="true" style="cursor:pointer; width: 100%; height: auto; border-radius: 4px;"');
         }
-        let descES = pub.descripcionES.replaceAll('<p>', '<p style="margin: 0 0 16px 0; font-size: 15px; line-height: 1.6; color: #000; font-weight: 400;">');
-        descES = descES.replaceAll('<b>', '<b style="font-weight: 600; color: #000;">');
-        descES = descES.replaceAll('<strong>', '<strong style="font-weight: 600; color: #000;">');
+        let descES = pub.descripcionES.replaceAll('<p>', '<p style="margin: 0 0 8px 0; font-size: 15px; line-height: 1.6; color: #000; font-weight: 300;">');
+        descES = descES.replaceAll('<b>', '<b style="font-weight: 500; color: #000;">');
+        descES = descES.replaceAll('<strong>', '<strong style="font-weight: 500; color: #000;">');
         
-        let descEN = pub.descripcionEN.replaceAll('<p>', '<p style="margin: 0 0 16px 0; font-size: 15px; line-height: 1.6; color: #777; font-weight: 300;">');
-        descEN = descEN.replaceAll('<b>', '<b style="font-weight: 500; color: #555;">');
-        descEN = descEN.replaceAll('<strong>', '<strong style="font-weight: 500; color: #555;">');
+        let descEN = pub.descripcionEN.replaceAll('<p>', '<p style="margin: 0 0 8px 0; font-size: 15px; line-height: 1.6; color: #666666; font-weight: 300;">');
+        descEN = descEN.replaceAll('<b>', '<b style="font-weight: 500; color: #555555;">');
+        descEN = descEN.replaceAll('<strong>', '<strong style="font-weight: 500; color: #555555;">');
         
         const tieneTexto = pub.descripcionES.trim() !== '' || pub.descripcionEN.trim() !== '';
         contenidoHTML += `
             <div class="publicacion-item" style="margin-bottom: 50px; font-family: Google Sans, sans-serif; width: 100%;">
-                <div class="pub-ano" style="font-size: 18px; font-weight: 400; color: #999; margin-bottom: 4px;">${pub.año}</div>
+                <div class="pub-ano" style="font-size: 18px; font-weight: 300; color: #999; margin-bottom: 4px;">${pub.año}</div>
                 <div class="pub-titulo-interno" style="font-size: 32px; font-weight: 700; color: #000; margin-bottom: 25px; line-height: 1.2;">${pub.titulo}</div>
                 
                 ${tieneTexto ? `
-                <div class="idiomas-filas-container" style="display: flex; flex-direction: column; gap: 15px; width: 100%; margin-bottom: 35px;">
+                <div class="idiomas-filas-container" style="display: flex; flex-direction: column; gap: 8px; width: 100%; margin-bottom: 30px;">
                     <div class="descripcion-bloque-es">${descES}</div>
                     <div class="descripcion-bloque-en">${descEN}</div>
                 </div>
                 ` : ''}
                 
                 <div class="pub-media-container" style="width: 100%; margin-top: 25px;">
-                    ${mediaRenderizado || '<div style="font-size:11px;color:#999999;padding:20px;border:1px dashed #ddd;text-align:center;">[ espacio multimedia vacío / empty media slot ]</div>'}
+                    ${mediaRenderizado || ''}
                 </div>
             </div>
         `;
@@ -739,7 +855,9 @@ function filtrarCategoria(cat) {
         filtrosComerciales.classList.add('hidden');
     }
     
-    if (cat === 'todos') {
+    if (cat === 'none') {
+        renderizerGrillaProyectos([]);
+    } else if (cat === 'todos') {
         renderizarGrillaProyectos(listaProyectos);
     } else {
         const filtrados = listaProyectos.filter(p => p.categoria === cat);
@@ -748,6 +866,7 @@ function filtrarCategoria(cat) {
 }
 
 function mostrarInfo() {
+    categoriaActual = 'none';
     const filtrosComerciales = document.getElementById('filtros-comerciales');
     if (filtrosComerciales) filtrosComerciales.classList.add('hidden');
     const btnVolver = document.getElementById('back-button-container');
@@ -757,18 +876,18 @@ function mostrarInfo() {
 }
 
 function irAHome() {
-    categoriaActual = 'todos';
+    categoriaActual = 'none';
     const filtrosComerciales = document.getElementById('filtros-comerciales');
     if (filtrosComerciales) filtrosComerciales.classList.add('hidden');
     const btnVolver = document.getElementById('back-button-container');
     if (btnVolver) btnVolver.classList.add('hidden');
-    renderizarGrillaProyectos(listaProyectos);
+    const contenedor = document.getElementById('dynamic-content');
+    if (contenedor) contenedor.innerHTML = '';
 }
 
 // ----------------------------------------------------
 // MANEJO DE LIGHTBOX Y EVENTOS
 // ----------------------------------------------------
-
 document.addEventListener('click', function(event) {
     if (event.target.hasAttribute('data-lightbox') || event.target.closest('[data-lightbox]')) {
         const targetImg = event.target.tagName === 'IMG' ? event.target : event.target.querySelector('img');
@@ -860,7 +979,7 @@ document.addEventListener('keydown', function(e) {
     }
 });
 
-// Inicializar vista al cargar el documento
+// Inicializar vista vacía al cargar la página de inicio
 document.addEventListener('DOMContentLoaded', () => {
     irAHome();
 });
