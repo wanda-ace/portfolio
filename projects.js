@@ -533,16 +533,16 @@ const listaProyectos = [
                 <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #777; font-weight: 300;">14/01/2023<br>Ooodisea at W Morris, Villa Crespo, CABA.</p>
               </div>
               <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; width: 100%;">
-                <img data-lightbox="true" src="img/proyectos-internos/concert-001.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="img/proyectos-internos/concert-002.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="img/proyectos-internos/concert-003.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="img/proyectos-internos/concert-004.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="img/proyectos-internos/concert-005.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="img/proyectos-internos/concert-006.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="img/proyectos-internos/concert-007.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="img/proyectos-internos/concert-008.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="img/proyectos-internos/concert-009.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="img/proyectos-internos/concert-010.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-01.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-02.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-03.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-04.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-05.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-06.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-07.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-08.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-09.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-10.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
               </div>
             </div>
             <!-- BLOQUE 2: Kill Flora -->
@@ -552,8 +552,8 @@ const listaProyectos = [
                 <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #777; font-weight: 300;">21/04/2023<br>Kill Flora at Bernal, Quilmes.</p>
               </div>
               <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; width: 100%;">
-                <img data-lightbox="true" src="img/proyectos-internos/concert-011.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-                <img data-lightbox="true" src="img/proyectos-internos/concert-012.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-11.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-12.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
                 <img data-lightbox="true" src="img/proyectos-internos/concert-013.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
                 <img data-lightbox="true" src="img/proyectos-internos/concert-014.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
                 <img data-lightbox="true" src="img/proyectos-internos/concert-015.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
