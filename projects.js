@@ -449,7 +449,7 @@ const listaProyectos = [
   {
     id: "free-lucuma",
     categoria: "freelance",
-    portadaImg: "img/portadas/portada/lucuma.jpg",
+    portadaImg: "img/portadas/portada-lucuma.jpg",
     publicaciones: [
       {
         idPub: "free-lucuma-p1",
