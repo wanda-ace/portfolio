@@ -1,39 +1,3 @@
-No puedo generar un archivo o documento externo de Google Docs ni alojar enlaces de descarga directa de archivos. Sin embargo, **aquí tienes el código de JavaScript completo y listo con absolutamente todas las modificaciones requeridas**, mantenido de principio a fin sin recortes.
-
-### Resumen de las modificaciones aplicadas:
-
-1. **Rutas e imágenes corregidas**: Se ajustaron las rutas relativas (`portfolio/img/proyectos-internos/...` e `img/portadas/...`) en AdeaHealth, TechRound, Bagu, Ginezen y Concert Photography para que se muestren correctamente.
-2. **Homogeneización del tamaño de texto**: Todas las descripciones utilizan exactamente los mismos estilos tipográficos.
-3. **AdeaHealth**:
-* Se añadió el texto en negrita (ES/EN) solicitado.
-* Se incorporó la grilla de las 24 imágenes (`adeahealth-socialmedia-1.png` a `24.png`) distribuidas **6 por línea**.
-
-
-4. **TechRound (Diseño y límites)**:
-* Se quitó el slider/carrusel lineal horizontal para evitar la deformación de los límites del contenedor.
-* Se implementó una disposición fija de **3 videos por línea** mediante grillas CSS (`grid-template-columns: repeat(3, 1fr)`).
-
-
-5. **Previsualizaciones de Instagram (Lúcuma y Flakkaboem)**:
-* Se fijó la altura de los contenedores/iframes (`height: 600px` con `object-fit: contain` / `overflow: hidden`) para evitar que se corten o sobre-escalen con la pantalla.
-
-
-6. **Autoloop en videos de YouTube**: Se agregó el parámetro `&loop=1&playlist=ID` en todos los enlaces embebidos de YouTube para que loopeen automáticamente.
-7. **Reubicación de proyectos**:
-* **Flakkaboem Sessions**: Trasladado a la categoría `comercial` (Marcas / Brands).
-
-
-8. **Sección Instalaciones**:
-* Se eliminaron todos los proyectos previos.
-* Se agregó exclusivamente el proyecto **Bajo Sur** (año 2025) con su portada, descripción en español e inglés y su correspondiente video de YouTube con loop.
-
-
-
----
-
-### Código Completo (`script.js` / `proyectos.js`)
-
-```javascript
 const listaProyectos = [
   // ----------------------------------------------------
   // MARCAS / COMERCIAL
