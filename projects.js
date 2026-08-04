@@ -15,7 +15,7 @@ const listaProyectos = [
         descripcionEN: "<p>Production of audiovisual content from news articles, editorials, interviews and UGC, adapted to multiple formats and platforms (YouTube and social media). Coordinated work with editorial team and external collaborators.</p>",
         mediaHTML: `
           <div style="display: flex; flex-direction: column; gap: 40px; width: 100%;">
-            <!-- Bloque 1: Article-Based Videos -->
+            <!-- Bloque 1: Article-Based Videos (3 por línea) -->
             <div>
               <h4 style="font-family: Google Sans, sans-serif; font-size: 18px; font-weight: 700; margin-bottom: 15px; color: #000;">Article-Based Videos</h4>
               <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
@@ -30,12 +30,12 @@ const listaProyectos = [
                   "y9hRbtiPLng", "33JjFWKUaQY", "zuUQ4Z7Ct_U", "fO6fOBACI38"
                 ].map(id => `
                   <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                    <iframe src="https://www.youtube.com/embed/${id}?loop=1&playlist=${id}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+                    <iframe src="https://www.youtube.com/embed/${id}?playlist=${id}&loop=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
                   </div>
                 `).join('')}
               </div>
             </div>
-            <!-- Bloque 2: Interviews & Expert Insights -->
+            <!-- Bloque 2: Interviews & Expert Insights (3 por línea) -->
             <div>
               <h4 style="font-family: Google Sans, sans-serif; font-size: 18px; font-weight: 700; margin-bottom: 15px; color: #000;">Interviews & Expert Insights</h4>
               <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
@@ -44,7 +44,7 @@ const listaProyectos = [
                   "a6yKkOmFq24", "6_7En_COw-o", "lNgtJLepXbg", "8fc3dDvUJ_k", "CVNUVpW9IbA"
                 ].map(id => `
                   <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                    <iframe src="https://www.youtube.com/embed/${id}?loop=1&playlist=${id}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+                    <iframe src="https://www.youtube.com/embed/${id}?playlist=${id}&loop=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
                   </div>
                 `).join('')}
               </div>
@@ -63,13 +63,15 @@ const listaProyectos = [
         idPub: "adeahealth-p1",
         año: "2025-2026",
         titulo: "AdeaHealth",
-        descripcionES: "<p>En AdeaHealth (una startup centrada en el bienestar que busca modernizar la atención médica preventiva mediante la educación y soluciones digitales), trabajo como Diseñador Multimedia, produciendo una amplia variedad de contenido audiovisual:</p><p><b>Producción de contenido para redes sociales (diseño gráfico, edición de video, motion graphics)</b></p><ul><li>Producción integral de contenido para redes sociales: estrategia mensual, redacción, diseño gráfico y edición de video.</li><li>Diseño de identidad visual, diseño de presentaciones, branding, logotipos y packaging.</li><li>Diseño UX/UI en Figma y Canva, incluyendo prototipado de sitios web y aplicaciones.</li><li>Revisión y adaptación de recursos para diferentes formatos, asegurando la coherencia entre los entregables y las directrices de marca.</li><li>Uso de herramientas con IA para la creación de contenido visual, la ideación y la optimización de la producción.</li></ul>",
-        descripcionEN: "<p>At AdeaHealth (a wellness-focused startup aiming to modernize preventive healthcare through education and digital solutions) I work as a Multimedia Designer producing a wide range of audiovisual content:</p><p><b>Content production for social media (graphic design, video editing, motion graphics)</b></p><ul><li>End-to-end social media content production: monthly strategy, copywriting, graphic design and video editing.</li><li>Visual identity design, presentation design, branding, logos and packaging.</li><li>UX/UI design in Figma and Canva with website and app prototyping.</li><li>Reviewing and adapting assets for different formats, ensuring consistency across deliverables and brand guidelines.</li><li>Use of AI-assisted tools for visual content creation, ideation and production optimisation.</li></ul>",
+        descripcionES: "<p>En AdeaHealth (una startup centrada en el bienestar que busca modernizar la atención médica preventiva mediante la educación y soluciones digitales), trabajo como Diseñador Multimedia, produciendo una amplia variedad de contenido audiovisual:</p><ul><li><b>Producción de contenido para redes sociales (diseño gráfico, edición de video, motion graphics)</b></li><li>Diseño de identidad visual, diseño de presentaciones, branding, logotipos y packaging.</li><li>Diseño UX/UI en Figma y Canva, incluyendo prototipado de sitios web y aplicaciones.</li><li>Revisión y adaptación de recursos para diferentes formatos, asegurando la coherencia entre los entregables y las directrices de marca.</li><li>Uso de herramientas con IA para la creación de contenido visual, la ideación y la optimización de la producción.</li></ul>",
+        descripcionEN: "<p>At AdeaHealth (a wellness-focused startup aiming to modernize preventive healthcare through education and digital solutions) I work as a Multimedia Designer producing a wide range of audiovisual content:</p><ul><li><b>Content production for social media (graphic design, video editing, motion graphics)</b></li><li>Visual identity design, presentation design, branding, logos and packaging.</li><li>UX/UI design in Figma and Canva with website and app prototyping.</li><li>Reviewing and adapting assets for different formats, ensuring consistency across deliverables and brand guidelines.</li><li>Use of AI-assisted tools for visual content creation, ideation and production optimisation.</li></ul>",
         mediaHTML: `
-          <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; width: 100%;">
-            ${Array.from({length: 24}, (_, i) => `
-              <img data-lightbox="true" src="img/proyectos-internos/adeahealth-socialmedia-${i + 1}.png" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
-            `).join('')}
+          <div style="display: flex; flex-direction: column; gap: 20px; width: 100%;">
+            <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; width: 100%;">
+              ${Array.from({ length: 24 }, (_, i) => i + 1).map(num => `
+                <img data-lightbox="true" src="img/proyectos-internos/adeahealth-socialmedia-${num}.png" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              `).join('')}
+            </div>
           </div>
         `
       }
@@ -84,17 +86,17 @@ const listaProyectos = [
         idPub: "free-flakka-p1",
         año: "2024",
         titulo: "Flakkaboem Sessions",
-        descripcionES: "<p>Postproducción de material audiovisual para sesiones de música en vivo, incluyendo <b>edición de video</b>, <b>corrección de color</b>, <b>sincronización multicámara</b> y selección de fragmentos para la creación de contenido en formato vertical destinado a Instagram Reels y YouTube Shorts.</p>",
-        descripcionEN: "<p>Post-production of audiovisual content for live music sessions, including <b>video editing</b>, <b>color correction</b>, <b>multicamera synchronization</b>, and the selection of highlights for short-form vertical content on Instagram Reels and YouTube Shorts.</p>",
+        descripcionES: "<p>Postproducción de material audiovisual para sesiones de música en vivo, incluyendo <b> edición de video</b>, <b>corrección de color</b>, <b> sincronización multicámara</b>  y selección de fragmentos para la creación de contenido en formato vertical destinado a Instagram Reels y YouTube Shorts.</p>",
+        descripcionEN: "<p>Post-production of audiovisual content for live music sessions, including <b> video editing</b> , <b>color correction</b>, <b> multicamera synchronization</b>, and the selection of highlights for short-form vertical content on Instagram Reels and YouTube Shorts.</p>",
         mediaHTML: `
           <div style="display: flex; flex-direction: column; gap: 35px; width: 100%;">
               <!-- Videos de YouTube uno abajo del otro -->
               <div style="display: flex; flex-direction: column; gap: 20px; width: 100%;">
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/S5clh2xefZw?loop=1&playlist=S5clh2xefZw" title="Flakkaboem YT 1" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/KIdcWdvYjyI?loop=1&playlist=KIdcWdvYjyI" title="Flakkaboem YT 2" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/4ShSn0kQJeE?loop=1&playlist=4ShSn0kQJeE" title="Flakkaboem YT 3" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/WMMbMiQEcWA?loop=1&playlist=WMMbMiQEcWA" title="Flakkaboem YT 4" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/EA6wyKV7xs4?loop=1&playlist=EA6wyKV7xs4" title="Flakkaboem YT 5" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/S5clh2xefZw?playlist=S5clh2xefZw&loop=1" title="Flakkaboem YT 1" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/KIdcWdvYjyI?playlist=KIdcWdvYjyI&loop=1" title="Flakkaboem YT 2" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/4ShSn0kQJeE?playlist=4ShSn0kQJeE&loop=1" title="Flakkaboem YT 3" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/WMMbMiQEcWA?playlist=WMMbMiQEcWA&loop=1" title="Flakkaboem YT 4" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+                  <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;"><iframe src="https://www.youtube.com/embed/EA6wyKV7xs4?playlist=EA6wyKV7xs4&loop=1" title="Flakkaboem YT 5" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
               </div>
               
               <div style="font-family: Google Sans, sans-serif; font-size: 16px; font-weight: 500; color: #000; border-top: 1px solid #eee; padding-top: 25px; margin-top: 10px;">Contenido Shorts / Reels:</div>
@@ -129,10 +131,9 @@ const listaProyectos = [
           <div style="display: flex; flex-direction: column; gap: 40px; width: 100%;">
             <!-- Grilla de Imágenes (6 por línea) -->
             <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; width: 100%;">
-              ${Array.from({length: 41}, (_, i) => {
-                const num = String(i + 1).padStart(2, '0');
-                return `<img data-lightbox="true" src="img/proyectos-internos/bagu-${num}.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">`;
-              }).join('')}
+              ${Array.from({ length: 41 }, (_, i) => String(i + 1).padStart(2, '0')).map(num => `
+                <img data-lightbox="true" src="img/proyectos-internos/bagu-${num}.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              `).join('')}
             </div>
             <!-- Videos Dailymotion (3 por línea) -->
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
@@ -177,10 +178,9 @@ const listaProyectos = [
           <div style="display: flex; flex-direction: column; gap: 40px; width: 100%;">
             <!-- Grilla de Imágenes (6 por línea) -->
             <div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; width: 100%;">
-              ${Array.from({length: 55}, (_, i) => {
-                const num = String(i + 1).padStart(2, '0');
-                return `<img data-lightbox="true" src="img/proyectos-internos/ginezen-${num}.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">`;
-              }).join('')}
+              ${Array.from({ length: 55 }, (_, i) => String(i + 1).padStart(2, '0')).map(num => `
+                <img data-lightbox="true" src="img/proyectos-internos/ginezen-${num}.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+              `).join('')}
             </div>
             <!-- Videos Dailymotion Ginezen (3 por línea) -->
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
@@ -233,7 +233,7 @@ const listaProyectos = [
         titulo: "memoria",
         descripcionES: "<p>“memoria” es un proyecto de animación resultado de una experimentación de diferentes técnicas audiovisuales: fotografía, imagen en movimiento, dibujos en papel y digitales. Fue realizado para la Universidad de Buenos Aires en el marco de los 40 años de Democracia en Argentina.</p>",
         descripcionEN: "<p>“memoria” is an animation project resulting from experimentation with various audiovisual techniques: photography, moving images, and both paper and digital drawings. It was produced for the University of Buenos Aires in the context of the 40th anniversary of democracy in Argentina.</p>",
-        mediaHTML: '<iframe src="https://www.youtube.com/embed/_fNHM4maVpA?loop=1&playlist=_fNHM4maVpA" title="memoria" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+        mediaHTML: '<iframe src="https://www.youtube.com/embed/_fNHM4maVpA?playlist=_fNHM4maVpA&loop=1" title="memoria" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
       }
     ]
   },
@@ -257,20 +257,20 @@ const listaProyectos = [
         mediaHTML: `
           <div style="display: flex; flex-direction: column; gap: 20px; width: 100%;">
               <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                  <iframe src="https://www.youtube.com/embed/1_h0tL3hrfA?loop=1&playlist=1_h0tL3hrfA" title="Moyo Video 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                  <iframe src="https://www.youtube.com/embed/1_h0tL3hrfA?playlist=1_h0tL3hrfA&loop=1" title="Moyo Video 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
               <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                  <iframe src="https://www.youtube.com/embed/e0nDvOtpPjM?loop=1&playlist=e0nDvOtpPjM" title="Moyo Video 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                  <iframe src="https://www.youtube.com/embed/e0nDvOtpPjM?playlist=e0nDvOtpPjM&loop=1" title="Moyo Video 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
               <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%; margin-top: 15px;">
                   <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                      <iframe src="https://www.youtube.com/embed/-K0N8nFII5Y?loop=1&playlist=-K0N8nFII5Y" title="Proceso 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                      <iframe src="https://www.youtube.com/embed/-K0N8nFII5Y?playlist=-K0N8nFII5Y&loop=1" title="Proceso 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
                   </div>
                   <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                      <iframe src="https://www.youtube.com/embed/BC_WIf5bPTQ?loop=1&playlist=BC_WIf5bPTQ" title="Proceso 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                      <iframe src="https://www.youtube.com/embed/BC_WIf5bPTQ?playlist=BC_WIf5bPTQ&loop=1" title="Proceso 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
                   </div>
                   <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                      <iframe src="https://www.youtube.com/embed/oUgn8nPFbTo?loop=1&playlist=oUgn8nPFbTo" title="Proceso 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                      <iframe src="https://www.youtube.com/embed/oUgn8nPFbTo?playlist=oUgn8nPFbTo&loop=1" title="Proceso 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
                   </div>
               </div>
           </div>
@@ -291,7 +291,7 @@ const listaProyectos = [
         descripcionEN: "<p>Audiovisual interpretation of a dream.</p>",
         mediaHTML: `
           <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000; margin-bottom: 25px;">
-              <iframe src="https://www.youtube.com/embed/jHQmMj2uQmo?loop=1&playlist=jHQmMj2uQmo" title="cero, nueve" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+              <iframe src="https://www.youtube.com/embed/jHQmMj2uQmo?playlist=jHQmMj2uQmo&loop=1" title="cero, nueve" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
           </div>
           <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
               <img data-lightbox="true" src="img/proyectos-internos/cero-nueve-01.png" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
@@ -327,7 +327,7 @@ const listaProyectos = [
         `,
         mediaHTML: `
           <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;">
-              <iframe src="https://www.youtube.com/embed/GC83fCLqHPs?loop=1&playlist=GC83fCLqHPs" title="Urdimbre" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+              <iframe src="https://www.youtube.com/embed/GC83fCLqHPs?playlist=GC83fCLqHPs&loop=1" title="Urdimbre" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
           </div>
           <div style="font-family: Google Sans, sans-serif; font-size: 20px; font-weight: 700; color: #000; margin-top: 40px; margin-bottom: 15px;">Imágenes:</div>
           <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; width: 100%;">
@@ -355,7 +355,7 @@ const listaProyectos = [
         `,
         mediaHTML: `
           <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;">
-              <iframe src="https://www.youtube.com/embed/okDMsnwzYII?loop=1&playlist=okDMsnwzYII" title="Entre las Dos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+              <iframe src="https://www.youtube.com/embed/okDMsnwzYII?playlist=okDMsnwzYII&loop=1" title="Entre las Dos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
           </div>
           <div style="font-family: Google Sans, sans-serif; font-size: 20px; font-weight: 700; color: #000; margin-top: 40px; margin-bottom: 15px;">Backstage:</div>
           <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
@@ -389,7 +389,7 @@ const listaProyectos = [
         `,
         mediaHTML: `
           <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;">
-              <iframe src="https://www.youtube.com/embed/ey6VMglwguY?loop=1&playlist=ey6VMglwguY" title="La Grulla" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+              <iframe src="https://www.youtube.com/embed/ey6VMglwguY?playlist=ey6VMglwguY&loop=1" title="La Grulla" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
           </div>
           <div style="font-family: Google Sans, sans-serif; font-size: 20px; font-weight: 700; color: #000; margin-top: 40px; margin-bottom: 15px;">Backstage:</div>
           <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
@@ -416,7 +416,7 @@ const listaProyectos = [
         descripcionEN: `
           <p>I worked as the <b>director</b>, <b>editor</b>, and <b>sound designer</b> of "Albores", a docfiction short film that premiered in December 2023 at the Amorina Cine Bar Short Film Festival, an event dedicated to showcasing independent Argentine cinema and bringing together emerging filmmakers.</p>
         `,
-        mediaHTML: '<iframe src="https://www.youtube.com/embed/fLpjvvWXApA?loop=1&playlist=fLpjvvWXApA" title="Albores" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+        mediaHTML: '<iframe src="https://www.youtube.com/embed/fLpjvvWXApA?playlist=fLpjvvWXApA&loop=1" title="Albores" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
       }
     ]
   },
@@ -439,7 +439,7 @@ const listaProyectos = [
           <p>The project explores the intersection of documentary filmmaking and visual experimentation by combining documentary footage with hand-crafted interventions applied directly to individual frames, blurring the boundaries between documentation and artistic expression.</p>
           <p>Created in collaboration with Javiera Ceniceros and Clara Bunge.</p>
         `,
-        mediaHTML: '<iframe src="https://www.youtube.com/embed/FKYOi1UyxpY?loop=1&playlist=FKYOi1UyxpY" title="Documental del azar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+        mediaHTML: '<iframe src="https://www.youtube.com/embed/FKYOi1UyxpY?playlist=FKYOi1UyxpY&loop=1" title="Documental del azar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
       }
     ]
   },
@@ -461,18 +461,18 @@ const listaProyectos = [
           <div style="display: flex; flex-direction: column; gap: 25px; width: 100%;">
               <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; width: 100%;">
                   <div style="width: 100%; border-radius: 4px; background-color: #fff; overflow: hidden;">
-                      <iframe src="https://www.instagram.com/p/DZGWi2LFTRw/embed" frameborder="0" scrolling="no" allowtransparency="true" style="width: 100%; height: 600px; border: 0;"></iframe>
+                      <iframe src="https://www.instagram.com/p/DZGWi2LFTRw/embed" frameborder="0" scrolling="no" allowtransparency="true" style="width: 100%; height: 580px; border: 0;"></iframe>
                   </div>
                   <div style="width: 100%; border-radius: 4px; background-color: #fff; overflow: hidden;">
-                      <iframe src="https://www.instagram.com/p/DXsPvFZAJ4x/embed" frameborder="0" scrolling="no" allowtransparency="true" style="width: 100%; height: 600px; border: 0;"></iframe>
+                      <iframe src="https://www.instagram.com/p/DXsPvFZAJ4x/embed" frameborder="0" scrolling="no" allowtransparency="true" style="width: 100%; height: 580px; border: 0;"></iframe>
                   </div>
               </div>
               <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; width: 100%;">
                   <div style="width: 100%; border-radius: 4px; background-color: #fff; overflow: hidden;">
-                      <iframe src="https://www.instagram.com/p/DWFMgTmjusW/embed" frameborder="0" scrolling="no" allowtransparency="true" style="width: 100%; height: 600px; border: 0;"></iframe>
+                      <iframe src="https://www.instagram.com/p/DWFMgTmjusW/embed" frameborder="0" scrolling="no" allowtransparency="true" style="width: 100%; height: 580px; border: 0;"></iframe>
                   </div>
                   <div style="width: 100%; border-radius: 4px; background-color: #fff; overflow: hidden;">
-                      <iframe src="https://www.instagram.com/p/DbUCdBAgO6D/embed" frameborder="0" scrolling="no" allowtransparency="true" style="width: 100%; height: 600px; border: 0;"></iframe>
+                      <iframe src="https://www.instagram.com/p/DbUCdBAgO6D/embed" frameborder="0" scrolling="no" allowtransparency="true" style="width: 100%; height: 580px; border: 0;"></iframe>
                   </div>
               </div>
           </div>
@@ -492,13 +492,13 @@ const listaProyectos = [
         idPub: "inst-bajo-sur-p1",
         año: "2025",
         titulo: "Bajo Sur",
-        descripcionES: `<p>Bajo Sur es una videoinstalación que explora la identidad de los barrios del conurbano sur en Buenos Aires a través de una mirada que combina documental y ficción.</p>
-        <p>La obra sigue recorridos por espacios cotidianos, como un túnel, una estación de tren y una rotonda con un santuario popular, donde pequeñas irrupciones mágicas transforman la experiencia del paisaje urbano. Burbujas, imágenes sobreexpuestas, presencias no humanas y mitologías nacidas en internet conviven con el cemento revelando una dimensión más lúdica, contradictoria y poética del territorio.</p>
-        <p>Los videos fueron registrados con teléfonos celulares de baja resolución. Esta decisión estética recupera una imagen asociada a lo precario y lo cotidiano, no como un signo de carencia, sino como formas de resistencia simbólica.</p>`,
-        descripcionEN: `<p>Bajo Sur is a video installation that explores the identity of the southern districts of Buenos Aires through a hybrid approach that combines documentary and fiction.</p>
-        <p>The work follows journeys through everyday locations, including a tunnel, a train station, and a roundabout with a popular roadside shrine, where subtle magical disruptions reshape the urban landscape. Bubbles, overexposed images, non-human presences, and internet-born myths coexist with concrete, revealing a more playful, contradictory, and poetic dimension of the territory.</p>
-        <p>The videos were recorded using low-resolution mobile phones. This aesthetic choice embraces an image often associated with the ordinary and the precarious, not as a sign of deficiency, but as a form of symbolic resistance.</p>`,
-        mediaHTML: `<iframe src="https://www.youtube.com/embed/yyBKgIkTirc?loop=1&playlist=yyBKgIkTirc" title="Bajo Sur" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`
+        descripcionES: "<p>Bajo Sur es una videoinstalación que explora la identidad de los barrios del conurbano sur en Buenos Aires a través de una mirada que combina documental y ficción.</p><p>La obra sigue recorridos por espacios cotidianos, como un túnel, una estación de tren y una rotonda con un santuario popular, donde pequeñas irrupciones mágicas transforman la experiencia del paisaje urbano. Burbujas, imágenes sobreexpuestas, presencias no humanas y mitologías nacidas en internet conviven con el cemento revelando una dimensión más lúdica, contradictoria y poética del territorio.</p><p>Los videos fueron registrados con teléfonos celulares de baja resolución. Esta decisión estética recupera una imagen asociada a lo precario y lo cotidiano, no como un signo de carencia, sino como formas de resistencia simbólica.</p>",
+        descripcionEN: "<p>Bajo Sur is a video installation that explores the identity of the southern districts of Buenos Aires through a hybrid approach that combines documentary and fiction.</p><p>The work follows journeys through everyday locations, including a tunnel, a train station, and a roundabout with a popular roadside shrine, where subtle magical disruptions reshape the urban landscape. Bubbles, overexposed images, non-human presences, and internet-born myths coexist with concrete, revealing a more playful, contradictory, and poetic dimension of the territory.</p><p>The videos were recorded using low-resolution mobile phones. This aesthetic choice embraces an image often associated with the ordinary and the precarious, not as a sign of deficiency, but as a form of symbolic resistance.</p>",
+        mediaHTML: `
+          <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;">
+            <iframe src="https://www.youtube.com/embed/yyBKgIkTirc?playlist=yyBKgIkTirc&loop=1" title="Bajo Sur" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+          </div>
+        `
       }
     ]
   },
@@ -533,10 +533,16 @@ const listaProyectos = [
                 <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #777; font-weight: 300;">14/01/2023<br>Ooodisea at W Morris, Villa Crespo, CABA.</p>
               </div>
               <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; width: 100%;">
-                ${Array.from({length: 10}, (_, i) => {
-                  const num = String(i + 1).padStart(3, '0');
-                  return `<img data-lightbox="true" src="img/proyectos-internos/concert-${num}.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">`;
-                }).join('')}
+                <img data-lightbox="true" src="img/proyectos-internos/concert-001.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-002.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-003.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-004.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-005.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-006.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-007.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-008.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-009.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-010.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
               </div>
             </div>
             <!-- BLOQUE 2: Kill Flora -->
@@ -546,10 +552,17 @@ const listaProyectos = [
                 <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #777; font-weight: 300;">21/04/2023<br>Kill Flora at Bernal, Quilmes.</p>
               </div>
               <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; width: 100%;">
-                ${Array.from({length: 11}, (_, i) => {
-                  const num = String(i + 11).padStart(3, '0');
-                  return `<img data-lightbox="true" src="img/proyectos-internos/concert-${num}.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">`;
-                }).join('')}
+                <img data-lightbox="true" src="img/proyectos-internos/concert-011.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-012.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-013.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-014.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-015.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-016.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-017.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-018.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-019.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-020.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-021.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
               </div>
             </div>
             <!-- BLOQUE 3: Nenagenix -->
@@ -559,10 +572,17 @@ const listaProyectos = [
                 <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #777; font-weight: 300;">16/12/2022<br>Nenagenix at Beatflow, Palermo, CABA.</p>
               </div>
               <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; width: 100%;">
-                ${Array.from({length: 11}, (_, i) => {
-                  const num = String(i + 22).padStart(3, '0');
-                  return `<img data-lightbox="true" src="img/proyectos-internos/concert-${num}.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">`;
-                }).join('')}
+                <img data-lightbox="true" src="img/proyectos-internos/concert-022.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-023.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-024.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-025.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-026.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-027.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-028.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-029.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-030.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-031.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-032.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
               </div>
             </div>
             <!-- BLOQUE 4: El Club Audiovisual -->
@@ -572,10 +592,17 @@ const listaProyectos = [
                 <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #777; font-weight: 300;">16/12/2022<br>El Club Audiovisual at Beatflow, Palermo, CABA.</p>
               </div>
               <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; width: 100%;">
-                ${Array.from({length: 11}, (_, i) => {
-                  const num = String(i + 33).padStart(3, '0');
-                  return `<img data-lightbox="true" src="img/proyectos-internos/concert-${num}.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">`;
-                }).join('')}
+                <img data-lightbox="true" src="img/proyectos-internos/concert-033.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-034.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-035.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-036.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-037.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-038.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-039.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-040.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-041.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-042.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
+                <img data-lightbox="true" src="img/proyectos-internos/concert-043.jpg" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
               </div>
             </div>
           </div>
@@ -584,3 +611,256 @@ const listaProyectos = [
     ]
   }
 ];
+
+const textoBio = `
+    <div class="bio-content-view" style="font-family: Google Sans, sans-serif; display: flex; flex-direction: column; gap: 24px; width: 100%;">
+        <div class="bio-es" style="font-weight: 400; font-size: 15px; line-height: 1.6; color: #000;">
+            <p style="margin-bottom: 16px;"><b style="font-weight: 600;">Wanda Acevedo</b> es Diseñadora Audiovisual especializada en edición de video, diseño gráfico y producción de contenido digital para diferentes marcas, proyectos y empresas.</p>
+            <p style="margin-bottom: 16px;">Especializada en la Universidad de Buenos Aires (UBA) y con un fuerte enfoque técnico, investiga narrativas contemporáneas y las tecnologías creativas emergentes.</p>
+        </div>
+        <div class="bio-en" style="font-weight: 300; font-size: 15px; line-height: 1.6; color: #777;">
+            <p style="margin-bottom: 16px;"><b style="font-weight: 500;">Wanda Acevedo</b> is an Audiovisual Designer specializing in video editing, graphic design, and digital content production for various brands, projects, and companies.</p>
+            <p style="margin-bottom: 16px;">Formed at the University of Buenos Aires (UBA) and with a strong technical focus, she researches contemporary narratives and emerging creative technologies.</p>
+        </div>
+    </div>
+`;
+
+let categoriaActual = 'todos';
+let imagenesLightboxActuales = [];
+let indiceLightboxActual = 0;
+
+function renderizarGrillaProyectos(proyectosAVisualizar) {
+    const contenedor = document.getElementById('dynamic-content');
+    if (!contenedor) return;
+    contenedor.innerHTML = '';
+    const divGrilla = document.createElement('div');
+    divGrilla.className = 'grid-proyectos';
+    divGrilla.style.display = 'grid';
+    divGrilla.style.width = '100%';
+    proyectosAVisualizar.forEach(proy => {
+        const primeraPub = proy.publicaciones[0];
+        if (!primeraPub) return;
+        const tarjeta = document.createElement('div');
+        tarjeta.className = 'proyecto-tarjeta';
+        tarjeta.setAttribute('onclick', `verProyecto('${proy.id}')`);
+        tarjeta.style.fontFamily = 'Google Sans, sans-serif';
+        tarjeta.style.width = '100%';
+        let previewTexto = primeraPub.descripcionES.replaceAll('<b>', '<b style="font-weight: 500;">');
+        tarjeta.innerHTML = `
+            <img class="proyecto-tarjeta-media" src="${proy.portadaImg}" alt="${primeraPub.titulo}" style="width: 100%;">
+            <div class="pub-ano" style="font-family: Google Sans, sans-serif; font-size: 14px; margin-top: 10px;">${primeraPub.año}</div>
+            <h3 style="font-family: Google Sans, sans-serif; font-size: 17px; margin-top: 4px; margin-bottom: 8px;">${primeraPub.titulo}</h3>
+            <div class="line-clamp-preview" style="font-family: Google Sans, sans-serif; font-weight: 400; font-size: 14px;">
+                ${previewTexto} <span class="mas-link" style="color: #76C4AA;">[+]</span>
+            </div>
+        `;
+        divGrilla.appendChild(tarjeta);
+    });
+    contenedor.appendChild(divGrilla);
+}
+
+function verProyecto(idProyecto) {
+    const proy = listaProyectos.find(p => p.id === idProyecto);
+    if (!proy) return;
+    const filtrosComerciales = document.getElementById('filtros-comerciales');
+    if (filtrosComerciales) filtrosComerciales.classList.add('hidden');
+    
+    const botonVolver = document.getElementById('back-button-container');
+    if (botonVolver) {
+        botonVolver.classList.remove('hidden');
+    }
+    const contenedor = document.getElementById('dynamic-content');
+    if (!contenedor) return;
+    contenedor.innerHTML = '';
+    const divProyecto = document.createElement('div');
+    divProyecto.className = 'proyecto-interno';
+    divProyecto.style.width = '100%';
+    divProyecto.style.maxWidth = '100%';
+    
+    let contenidoHTML = '';
+    proy.publicaciones.forEach(pub => {
+        let mediaRenderizado = pub.mediaHTML;
+        
+        if (mediaRenderizado && mediaRenderizado.includes('<iframe') && !mediaRenderizado.includes('display: grid') && !mediaRenderizado.includes('display: flex')) {
+            mediaRenderizado = mediaRenderizado.replace(/width="[^"]*"/, '').replace(/height="[^"]*"/, '');
+            mediaRenderizado = `
+                <div style="position: relative; width: 100%; padding-top: 56.25%; overflow: hidden; border-radius: 4px; background-color: #000;">
+                    ${mediaRenderizado.replace('<iframe', '<iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"')}
+                </div>
+            `;
+        } else if (mediaRenderizado && mediaRenderizado.includes('<img') && !mediaRenderizado.includes('display: grid')) {
+            mediaRenderizado = mediaRenderizado.replaceAll('<img', '<img data-lightbox="true" style="cursor:pointer; width: 100%; height: auto; border-radius: 4px;"');
+        }
+        let descES = pub.descripcionES.replaceAll('<p>', '<p style="margin: 0 0 16px 0; font-size: 15px; line-height: 1.6; color: #000; font-weight: 400;">');
+        descES = descES.replaceAll('<b>', '<b style="font-weight: 600; color: #000;">');
+        descES = descES.replaceAll('<strong>', '<strong style="font-weight: 600; color: #000;">');
+        
+        let descEN = pub.descripcionEN.replaceAll('<p>', '<p style="margin: 0 0 16px 0; font-size: 15px; line-height: 1.6; color: #777; font-weight: 300;">');
+        descEN = descEN.replaceAll('<b>', '<b style="font-weight: 500; color: #555;">');
+        descEN = descEN.replaceAll('<strong>', '<strong style="font-weight: 500; color: #555;">');
+        
+        const tieneTexto = pub.descripcionES.trim() !== '' || pub.descripcionEN.trim() !== '';
+        contenidoHTML += `
+            <div class="publicacion-item" style="margin-bottom: 50px; font-family: Google Sans, sans-serif; width: 100%;">
+                <div class="pub-ano" style="font-size: 18px; font-weight: 400; color: #999; margin-bottom: 4px;">${pub.año}</div>
+                <div class="pub-titulo-interno" style="font-size: 32px; font-weight: 700; color: #000; margin-bottom: 25px; line-height: 1.2;">${pub.titulo}</div>
+                
+                ${tieneTexto ? `
+                <div class="idiomas-filas-container" style="display: flex; flex-direction: column; gap: 15px; width: 100%; margin-bottom: 35px;">
+                    <div class="descripcion-bloque-es">${descES}</div>
+                    <div class="descripcion-bloque-en">${descEN}</div>
+                </div>
+                ` : ''}
+                
+                <div class="pub-media-container" style="width: 100%; margin-top: 25px;">
+                    ${mediaRenderizado || '<div style="font-size:11px;color:#999999;padding:20px;border:1px dashed #ddd;text-align:center;">[ espacio multimedia vacío / empty media slot ]</div>'}
+                </div>
+            </div>
+        `;
+    });
+    divProyecto.innerHTML = contenidoHTML;
+    contenedor.appendChild(divProyecto);
+    window.scrollTo(0,0);
+}
+
+function volverALaGrilla() {
+    const btnVolver = document.getElementById('back-button-container');
+    if (btnVolver) btnVolver.classList.add('hidden');
+    filtrarCategoria(categoriaActual);
+}
+
+function filtrarCategoria(cat) {
+    categoriaActual = cat;
+    const btnVolver = document.getElementById('back-button-container');
+    if (btnVolver) btnVolver.classList.add('hidden');
+    
+    const filtrosComerciales = document.getElementById('filtros-comerciales');
+    if (filtrosComerciales) {
+        filtrosComerciales.classList.add('hidden');
+    }
+    
+    if (cat === 'todos') {
+        renderizarGrillaProyectos(listaProyectos);
+    } else {
+        const filtrados = listaProyectos.filter(p => p.categoria === cat);
+        renderizarGrillaProyectos(filtrados);
+    }
+}
+
+function mostrarInfo() {
+    const filtrosComerciales = document.getElementById('filtros-comerciales');
+    if (filtrosComerciales) filtrosComerciales.classList.add('hidden');
+    const btnVolver = document.getElementById('back-button-container');
+    if (btnVolver) btnVolver.classList.add('hidden');
+    const contenedor = document.getElementById('dynamic-content');
+    if (contenedor) contenedor.innerHTML = textoBio;
+}
+
+function irAHome() {
+    categoriaActual = 'todos';
+    const filtrosComerciales = document.getElementById('filtros-comerciales');
+    if (filtrosComerciales) filtrosComerciales.classList.add('hidden');
+    const btnVolver = document.getElementById('back-button-container');
+    if (btnVolver) btnVolver.classList.add('hidden');
+    renderizarGrillaProyectos(listaProyectos);
+}
+
+// ----------------------------------------------------
+// MANEJO DE LIGHTBOX Y EVENTOS
+// ----------------------------------------------------
+
+document.addEventListener('click', function(event) {
+    if (event.target.hasAttribute('data-lightbox') || event.target.closest('[data-lightbox]')) {
+        const targetImg = event.target.tagName === 'IMG' ? event.target : event.target.querySelector('img');
+        if (!targetImg) return;
+        
+        const todasLasImgs = Array.from(document.querySelectorAll('#dynamic-content img[data-lightbox="true"]'));
+        imagenesLightboxActuales = todasLasImgs.map(img => img.getAttribute('src'));
+        
+        const urlImagen = targetImg.getAttribute('src');
+        indiceLightboxActual = imagenesLightboxActuales.indexOf(urlImagen);
+        if (indiceLightboxActual === -1) {
+            imagenesLightboxActuales = [urlImagen];
+            indiceLightboxActual = 0;
+        }
+        const modal = document.getElementById('lightbox-modal');
+        if (modal) {
+            modal.classList.remove('hidden');
+            actualizarImagenLightbox();
+            inyectarFlechasNavegacion(modal);
+        }
+    }
+});
+
+function actualizarImagenLightbox() {
+    const imagenModal = document.getElementById('lightbox-img');
+    if (imagenModal && imagenesLightboxActuales.length > 0) {
+        imagenModal.src = imagenesLightboxActuales[indiceLightboxActual];
+    }
+    const btnPrev = document.getElementById('lightbox-prev-btn');
+    const btnNext = document.getElementById('lightbox-next-btn');
+    if (btnPrev && btnNext) {
+        if (imagenesLightboxActuales.length <= 1) {
+            btnPrev.style.display = 'none';
+            btnNext.style.display = 'none';
+        } else {
+            btnPrev.style.display = 'block';
+            btnNext.style.display = 'block';
+        }
+    }
+}
+
+function inyectarFlechasNavegacion(modal) {
+    if (document.getElementById('lightbox-prev-btn')) return;
+    const btnPrev = document.createElement('button');
+    btnPrev.id = 'lightbox-prev-btn';
+    btnPrev.innerHTML = '&#8592;';
+    btnPrev.style.cssText = 'position: absolute; left: 20px; top: 50%; transform: translateY(-50%); background: none; border: none; color: #ffffff; font-size: 35px; cursor: pointer; padding: 10px; z-index: 10010; transition: opacity 0.2s;';
+    btnPrev.setAttribute('onclick', 'lightboxAnterior(event)');
+    
+    const btnNext = document.createElement('button');
+    btnNext.id = 'lightbox-next-btn';
+    btnNext.innerHTML = '&#8594;';
+    btnNext.style.cssText = 'position: absolute; right: 20px; top: 50%; transform: translateY(-50%); background: none; border: none; color: #ffffff; font-size: 35px; cursor: pointer; padding: 10px; z-index: 10010; transition: opacity 0.2s;';
+    btnNext.setAttribute('onclick', 'lightboxSiguiente(event)');
+    [btnPrev, btnNext].forEach(btn => {
+        btn.onmouseover = () => btn.style.opacity = '0.7';
+        btn.onmouseout = () => btn.style.opacity = '1';
+    });
+    modal.appendChild(btnPrev);
+    modal.appendChild(btnNext);
+    actualizarImagenLightbox();
+}
+
+function lightboxAnterior(event) {
+    if (event) event.stopPropagation();
+    if (imagenesLightboxActuales.length <= 1) return;
+    indiceLightboxActual = (indiceLightboxActual - 1 + imagenesLightboxActuales.length) % imagenesLightboxActuales.length;
+    actualizarImagenLightbox();
+}
+
+function lightboxSiguiente(event) {
+    if (event) event.stopPropagation();
+    if (imagenesLightboxActuales.length <= 1) return;
+    indiceLightboxActual = (indiceLightboxActual + 1) % imagenesLightboxActuales.length;
+    actualizarImagenLightbox();
+}
+
+function cerrarLightbox() {
+    const modal = document.getElementById('lightbox-modal');
+    if (modal) modal.classList.add('hidden');
+}
+
+document.addEventListener('keydown', function(e) {
+    const modal = document.getElementById('lightbox-modal');
+    if (modal && !modal.classList.contains('hidden')) {
+        if (e.key === 'Escape') cerrarLightbox();
+        if (e.key === 'ArrowLeft') lightboxAnterior(e);
+        if (e.key === 'ArrowRight') lightboxSiguiente(e);
+    }
+});
+
+// Inicializar vista al cargar el documento
+document.addEventListener('DOMContentLoaded', () => {
+    irAHome();
+});
