@@ -123,7 +123,7 @@ const listaProyectos = [
   {
     id: "com-ciudadania-croata",
     categoria: "comercial",
-    portadaImg: "img/portadas/portada-ciudadania-croata.jpg",
+    portadaImg: "img/portadas/portada-ciudadania-croata.png",
     publicaciones: [
       {
         idPub: "ciudadania-croata-p1",
@@ -540,7 +540,7 @@ const listaProyectos = [
   {
     id: "inst-periferias",
     categoria: "instalaciones",
-    portadaImg: "portfolio/portadas/portada-periferias.png",
+    portadaImg: "img/portadas/portada-periferias.png",
     publicaciones: [
       {
         idPub: "inst-periferias-p1",
