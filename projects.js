@@ -745,13 +745,19 @@ const listaProyectos = [
 const textoBio = `
     <div class="bio-content-view" style="font-family: Google Sans, sans-serif; display: flex; flex-direction: column; gap: 20px; width: 100%;">
         <div class="bio-es" style="font-weight: 300; font-size: 15px; line-height: 1.6; color: #000;">
-            <p style="margin-bottom: 12px;"><b style="font-weight: 500;">Wanda Acevedo</b> es Diseñadora Audiovisual especializada en edición de video, diseño gráfico y producción de contenido digital para diferentes marcas, proyectos y empresas.</p>
-            <p style="margin-bottom: 12px;">Especializada en la Universidad de Buenos Aires (UBA) y con un fuerte enfoque técnico, investiga narrativas contemporáneas y las tecnologías creativas emergentes.</p>
+            <p style="margin-bottom: 12px;"><b style="font-weight: 500;">Wanda Acevedo</b> (2001, Buenos Aires, Argentina) es diseñadora audiovisual graduada de la carrera de Diseño de Imagen y Sonido de la Universidad de Buenos Aires (UBA). Trabaja en edición de video, diseño multimedia y producción de contenido digital para diferentes marcas, proyectos y empresas.</p>
+            <p style="margin-bottom: 12px;">Su práctica combina una mirada técnica con un fuerte interés por la creatividad y la experimentación. En sus proyectos personales investiga nuevas formas de narrar a través de la imagen, el sonido y la hibridación de técnicas audiovisuales, explorando los cruces entre documental, ficción, instalación y medios digitales.</p>
+            <p style="margin-bottom: 12px;">Tiene un especial interés por la música, la cultura de internet y las tecnologías creativas emergentes. Actualmente amplía su formación a través de la Tecnicatura Universitaria en Producción Musical y Nuevas Tecnologías de la Universidad Nacional de Quilmes (UNQ).</p>
         </div>
         <div class="bio-en" style="font-weight: 300; font-size: 15px; line-height: 1.6; color: #666666;">
-            <p style="margin-bottom: 12px;"><b style="font-weight: 500;">Wanda Acevedo</b> is an Audiovisual Designer specializing in video editing, graphic design, and digital content production for various brands, projects, and companies.</p>
-            <p style="margin-bottom: 12px;">Formed at the University of Buenos Aires (UBA) and with a strong technical focus, she researches contemporary narratives and emerging creative technologies.</p>
+            <p style="margin-bottom: 12px;"><b style="font-weight: 500;">Wanda Acevedo</b> (2001, Buenos Aires, Argentina) is an audiovisual designer with a degree in Image and Sound Design from the University of Buenos Aires (UBA). She works across video editing, multimedia design, and digital content production for a range of brands, projects, and companies.</p>
+            <p style="margin-bottom: 12px;">Her practice combines a strong technical foundation with a deep interest in creativity and experimentation. Through her personal work, she explores new ways of storytelling through image, sound, and the hybridization of audiovisual techniques, moving across documentary, fiction, installation, and digital media.</p>
+            <p style="margin-bottom: 12px;">She has a particular interest in music, internet culture, and emerging creative technologies. She is currently expanding her studies through the University Technical Degree in Music Production and New Technologies at the National University of Quilmes (UNQ).</p>
         </div>
+        <div class="bio-es" style="font-weight: 300; font-size: 15px; line-height: 1.6; color: #000;">
+            <p style="margin-bottom: 12px;"><b style="font-weight: 500;"
+            <a href="https://www.linkedin.com/in/wanda-a-38691225a/" target="_blank" style="color: #000; text-decoration: underline;">LinkedIn</a> / 
+            <a href="https://www.instagram.com/wan__ace/" target="_blank" style="color: #000; text-decoration: underline;">Instagram</a>
     </div>
 `;
 
