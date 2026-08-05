@@ -19,40 +19,40 @@ const listaProyectos = [
             <!-- Videos Dailymotion (3 por línea, deshabilitado autoplay) -->
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
               <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                <iframe src="https://www.dailymotion.com/embed/video/k5RVsPE3NTNPYhIorWC?autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                <iframe src="https://www.dailymotion.com/embed/video/k5RVsPE3NTNPYhIorWC?autoplay=false" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
               <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                <iframe src="https://www.dailymotion.com/embed/video/k5qwlcQdxNroK7IorWy?autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                <iframe src="https://www.dailymotion.com/embed/video/k5qwlcQdxNroK7IorWy?autoplay=false" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
               <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                <iframe src="https://www.dailymotion.com/embed/video/k75YzHBmt63KpxIorWG?autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
-              </div>
-            </div>
-            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
-              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                <iframe src="https://www.dailymotion.com/embed/video/k30Quf8rB3ZMjoIorWu?autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
-              </div>
-              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                <iframe src="https://www.dailymotion.com/embed/video/k1jVE7lHpQBaoFIr40y?autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
-              </div>
-              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                <iframe src="https://www.dailymotion.com/embed/video/k72nNYqW1iR56vIr40G?autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                <iframe src="https://www.dailymotion.com/embed/video/k75YzHBmt63KpxIorWG?autoplay=false" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
             </div>
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
               <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                <iframe src="https://www.dailymotion.com/embed/video/k2OdyEpojnVeQCIosx8?autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                <iframe src="https://www.dailymotion.com/embed/video/k30Quf8rB3ZMjoIorWu?autoplay=false" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
               <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                <iframe src="https://www.dailymotion.com/embed/video/kQLRbnIlT2MGOzIr40q?autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                <iframe src="https://www.dailymotion.com/embed/video/k1jVE7lHpQBaoFIr40y?autoplay=false" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
               <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                <iframe src="https://www.dailymotion.com/embed/video/k6TtuAHRz655CwIr40K?autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                <iframe src="https://www.dailymotion.com/embed/video/k72nNYqW1iR56vIr40G?autoplay=false" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
             </div>
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
               <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                <iframe src="https://www.dailymotion.com/embed/video/k76VOIMSvltDqIIr40u?autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                <iframe src="https://www.dailymotion.com/embed/video/k2OdyEpojnVeQCIosx8?autoplay=false" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+              </div>
+              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
+                <iframe src="https://www.dailymotion.com/embed/video/kQLRbnIlT2MGOzIr40q?autoplay=false" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+              </div>
+              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
+                <iframe src="https://www.dailymotion.com/embed/video/k6TtuAHRz655CwIr40K?autoplay=false" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+              </div>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
+              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
+                <iframe src="https://www.dailymotion.com/embed/video/k76VOIMSvltDqIIr40u?autoplay=false" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
               <div style="width: 100%;"></div>
               <div style="width: 100%;"></div>
@@ -62,6 +62,12 @@ const listaProyectos = [
               ${Array.from({ length: 24 }, (_, i) => i + 1).map(num => `
                 <img data-lightbox="true" src="img/proyectos-internos/adeahealth-socialmedia-${num}.png" style="width: 100%; height: auto; object-fit: cover; cursor: pointer; border-radius: 4px;">
               `).join('')}
+            </div>
+            <!-- Capturas adicionales al final -->
+            <div style="display: flex; flex-direction: column; gap: 15px; width: 100%;">
+              <img data-lightbox="true" src="img/proyectos-internos/adeahealth-screenshot-1.png" style="width: 100%; height: auto; border-radius: 4px; cursor: pointer;">
+              <img data-lightbox="true" src="img/proyectos-internos/adeahealth-screenshot-2.png" style="width: 100%; height: auto; border-radius: 4px; cursor: pointer;">
+              <img data-lightbox="true" src="img/proyectos-internos/adeahealth-screenshot-3.png" style="width: 100%; height: auto; border-radius: 4px; cursor: pointer;">
             </div>
           </div>
         `
@@ -140,24 +146,24 @@ const listaProyectos = [
             </div>
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
               <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                <iframe src="https://www.dailymotion.com/embed/video/kAmVwc6UTMacT4Ih9Ke?autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                <iframe src="https://www.dailymotion.com/embed/video/kAmVwc6UTMacT4Ih9Ke?autoplay=false" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
               <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                <iframe src="https://www.dailymotion.com/embed/video/k6behSRNlI3GorIh9Kq?autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                <iframe src="https://www.dailymotion.com/embed/video/k6behSRNlI3GorIh9Kq?autoplay=false" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
               <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                <iframe src="https://www.dailymotion.com/embed/video/kvmIo4byvpNG1iIh9K2?autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                <iframe src="https://www.dailymotion.com/embed/video/kvmIo4byvpNG1iIh9K2?autoplay=false" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
             </div>
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
               <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                <iframe src="https://www.dailymotion.com/embed/video/k4rSjATXJBFqlPIh9Ki?autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                <iframe src="https://www.dailymotion.com/embed/video/k4rSjATXJBFqlPIh9Ki?autoplay=false" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
               <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                <iframe src="https://www.dailymotion.com/embed/video/k7E1EA6VT9ntolIh9Km?autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                <iframe src="https://www.dailymotion.com/embed/video/k7E1EA6VT9ntolIh9Km?autoplay=false" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
               <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                <iframe src="https://www.dailymotion.com/embed/video/k3Jq6d3IMNwM9RIh9Ka?autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                <iframe src="https://www.dailymotion.com/embed/video/k3Jq6d3IMNwM9RIh9Ka?autoplay=false" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
             </div>
           </div>
@@ -185,32 +191,32 @@ const listaProyectos = [
             </div>
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
               <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                <iframe src="https://www.dailymotion.com/embed/video/k7bJVW9dqsGJJJImDL4?autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                <iframe src="https://www.dailymotion.com/embed/video/k7bJVW9dqsGJJJImDL4?autoplay=false" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
               <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                <iframe src="https://www.dailymotion.com/embed/video/k3SZxW5SZafH8PImDL0?autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                <iframe src="https://www.dailymotion.com/embed/video/k3SZxW5SZafH8PImDL0?autoplay=false" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
               <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                <iframe src="https://www.dailymotion.com/embed/video/kY5lZo5ufo5ZNQImDLg?autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
-              </div>
-            </div>
-            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
-              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                <iframe src="https://www.dailymotion.com/embed/video/k15Mq4nrjAR2MpImDLc?autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
-              </div>
-              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                <iframe src="https://www.dailymotion.com/embed/video/k1s6J8W4emCc7QImDLs?autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
-              </div>
-              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                <iframe src="https://www.dailymotion.com/embed/video/k4pc6jtHxMZ0P4ImDLw?autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                <iframe src="https://www.dailymotion.com/embed/video/kY5lZo5ufo5ZNQImDLg?autoplay=false" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
             </div>
             <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
               <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                <iframe src="https://www.dailymotion.com/embed/video/k5vs2ENtMyryXyImDLk?autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                <iframe src="https://www.dailymotion.com/embed/video/k15Mq4nrjAR2MpImDLc?autoplay=false" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
               <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
-                <iframe src="https://www.dailymotion.com/embed/video/k4nZCbeCBPpFmrImDLo?autoplay=0" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+                <iframe src="https://www.dailymotion.com/embed/video/k1s6J8W4emCc7QImDLs?autoplay=false" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+              </div>
+              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
+                <iframe src="https://www.dailymotion.com/embed/video/k4pc6jtHxMZ0P4ImDLw?autoplay=false" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+              </div>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; width: 100%;">
+              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
+                <iframe src="https://www.dailymotion.com/embed/video/k5vs2ENtMyryXyImDLk?autoplay=false" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
+              </div>
+              <div style="position: relative; width: 100%; padding-top: 177.77%; overflow: hidden; border-radius: 4px; background-color: #000;">
+                <iframe src="https://www.dailymotion.com/embed/video/k4nZCbeCBPpFmrImDLo?autoplay=false" frameborder="0" allow="fullscreen; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe>
               </div>
               <div style="width: 100%;"></div>
             </div>
@@ -512,7 +518,7 @@ const listaProyectos = [
     publicaciones: [
       {
         idPub: "free-ap-p1",
-        año: "2023",
+        año: "-",
         titulo: "Audiovisual Production",
         descripcionES: "<p>Dirección, grabación y edición del videoclip “Anhedonia” para la banda Aquí No Es.<br>Realizado entre Mayo y Septiembre de 2023.</p>",
         descripcionEN: "<p>Direction, filming, and editing of the music video \"Anhedonia\" for the band Aquí No Es.<br>Produced between May and September 2023.</p>",
@@ -537,7 +543,7 @@ const listaProyectos = [
     publicaciones: [
       {
         idPub: "free-gd-p1",
-        año: "2024 - 2026",
+        año: "-",
         titulo: "Graphic Design",
         descripcionES: "<p>Proyectos de diseño gráfico comercial, piezas de comunicación y branding para clientes independientes.</p>",
         descripcionEN: "<p>Commercial graphic design projects, communication pieces, and branding for freelance clients.</p>",
@@ -755,9 +761,11 @@ const textoBio = `
             <p style="margin-bottom: 12px;">She has a particular interest in music, internet culture, and emerging creative technologies. She is currently expanding her studies through the University Technical Degree in Music Production and New Technologies at the National University of Quilmes (UNQ).</p>
         </div>
         <div class="bio-es" style="font-weight: 300; font-size: 15px; line-height: 1.6; color: #000;">
-            <p style="margin-bottom: 12px;"><b style="font-weight: 500;"
-            <a href="https://www.linkedin.com/in/wanda-a-38691225a/" target="_blank" style="color: #000; text-decoration: underline;">LinkedIn</a> / 
-            <a href="https://www.instagram.com/wan__ace/" target="_blank" style="color: #000; text-decoration: underline;">Instagram</a>
+            <p style="margin-bottom: 12px;">
+                <a href="https://www.linkedin.com/in/wanda-a-38691225a/" target="_blank" style="color: #000; text-decoration: underline;">LinkedIn</a> / 
+                <a href="https://www.instagram.com/wan__ace/" target="_blank" style="color: #000; text-decoration: underline;">Instagram</a>
+            </p>
+        </div>
     </div>
 `;
 
@@ -1004,4 +1012,3 @@ document.addEventListener('keydown', function(e) {
 document.addEventListener('DOMContentLoaded', () => {
     irAHome();
 });
-
